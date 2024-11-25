@@ -18,6 +18,13 @@
     --highlight-color-light: #1fa2c2;
 }
 
+/* Global styles */
+
+.hero__hidden-heading {
+    display: none;
+}
+
+
 /* grid visualisation CSS for testing */
 
 header,
@@ -26,7 +33,8 @@ section {
 }
 
 .hero div,
-.usps div {
+.usps div,
+.about div {
     border: 2px solid white;
     background-color: lightgrey;
 }
