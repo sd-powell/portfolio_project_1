@@ -31,19 +31,26 @@
 
     <!-- Hero text with background image -->
     <header class="hero">
-        <div class="hidden-heading">
+        <!-- Hidden Heading for SEO or Screen Readers -->
+        <div class="hero__hidden-heading">
             <h2>DJ Silver Soul</h2>
             <h3>Soulful DJ for hire in the South West</h3>
         </div>
-        <div class="logo">Silver Soul Logo</div>
-        <div class="Hero-CTA"><h1>Get ready to elevate your event...</h1></div>
-        <div class="Hero-text"><h2>Need classic grooves perfectly tailored to set the vibe and elevate your
+        <!-- Logo Section -->
+        <div class="hero__logo">Silver Soul Logo</div>
+        <!-- Call-to-Action Heading -->
+        <div class="hero__cta">
+            <h1>Get ready to elevate your event...</h1>
+        </div>
+        <!-- Hero Text Section -->
+        <div class="hero__text">
+            <h2>Need classic grooves perfectly tailored to set the vibe and elevate your
                 space?</h2>
             <p>
                 I bring years of experience and a passion for creating the perfect soundtrack to keep your guests on the
                 dancefloor and your event buzzing.
             </p>
-        <button>Book your event now</button>
+            <button class="hero__button">Book your event now</button>
         </div>
     </header>
 
@@ -51,29 +58,35 @@
     <main>
         <!-- USP (Unique Selling Point) section-->
         <section class="usps">
-            <header>
+            <header class="usps__header">
                 <h3>What sets me apart...</h3>
             </header>
-            <div id="experience-card">
-                <strong>Decades of experience</strong>
-                <br>
-                I bring a wealth of experience of how to keep your event memorable
-                <br>
-                <a href="">Read more about me</a>
-            </div>
-            <div id="music-card">
-                <strong>Timeless Music</strong>
-                <br>
-                Every set is tailored to the unique
-                energy of your event and audience
-                <br>
-                <a href="">Listen to my playlists & mixes</a>
-            </div>
-            <div id="equipment-card">
-                <strong>An immersive experience</strong><br>
-                Professional-grade equipment ensures crystal-clear sound & flawless performance
-                <br>
-                <a href="">View my equipment list</a>
+            <div class="usps__cards">
+                <!-- Experience Card -->
+                <div class="usps__card">
+                    <h4 class="usps__card-title">Decades of Experience</h4>
+                    <p>
+                        I bring a wealth of experience of how to keep your event memorable
+                    </p>
+                    <a href="#" class="usps__card-link">Read more about me</a>
+                </div>
+                <!-- Music Card -->
+                <div class="usps__card">
+                    <h4 class="usps__card-title">Timeless Music</h4>
+                    <p>
+                        Every set is tailored to the unique
+                        energy of your event and audience
+                    </p>
+                    <a href="#" class="usps__card-link">Listen to my playlists & mixes</a>
+                </div>
+                <!-- Equipment Card -->
+                <div class="usps__card">
+                    <h4 class="usps__card-title">An Immersive Experience</h4>
+                    <p>
+                        Professional-grade equipment ensures crystal-clear sound & flawless performance
+                    </p>
+                    <a href="#" class="usps__card-link">View my equipment list</a>
+                </div>
             </div>
         </section>
     </main>
