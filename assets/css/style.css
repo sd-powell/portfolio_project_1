@@ -1,10 +1,33 @@
 /* Google Fonts import Inter and Macondo */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
-body {
-    font-family: 'Inter', sans-serif;
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-h1 {
-    font-family: 'Macondo', sans-serif;
+/* CSS Variables */
+:root {
+    --primary-font: 'Montserrat', sans-serif;
+    --primary-color: black;
+        /* orange */
+        --secondary-color: #d27d60;
+            /* blue */
+    --highlight-color-light: #1fa2c2;
 }
+
+/* grid visualisation CSS for testing */
+
+header,
+section {
+    border: 2px solid black;
+}
+
+.hero div,
+.usps div {
+    border: 2px solid white;
+    background-color: lightgrey;
+}
+
