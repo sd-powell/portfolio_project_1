@@ -12,14 +12,34 @@
 :root {
     --primary-font: 'Montserrat', sans-serif;
     --primary-color: black;
-        /* orange */
-        --secondary-color: #d27d60;
-            /* blue */
+    /* orange */
+    --secondary-color: #d27d60;
+    /* blue */
     --highlight-color-light: #1fa2c2;
 }
 
 /* Global styles */
 
+body {
+    font-family: var(--primary-font);
+    background-color: var(--primary-color);
+}
+
+h3 {
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+.hero__button,
+.booking__button {
+    background-color: var(--highlight-color-light);
+    border: none;
+    color: white;
+    text-align: center;
+}
+
+/* For hiding the main heading as it's only used for sematic purposes */
 .hero__hidden-heading {
     display: none;
 }
@@ -34,8 +54,10 @@ section {
 
 .hero div,
 .usps div,
-.about div {
+.usps header,
+.about div,
+.mixes div,
+.booking div {
     border: 2px solid white;
     background-color: lightgrey;
 }
-
