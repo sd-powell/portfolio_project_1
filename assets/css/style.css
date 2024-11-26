@@ -8,6 +8,12 @@
     box-sizing: border-box;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
 /* CSS Variables */
 :root {
     --primary-font: 'Montserrat', sans-serif;
@@ -17,9 +23,23 @@
     --secondary-color: #d27d60;
     /* blue */
     --highlight-color-light: #1fa2c2;
+    /* white */
+    --background-color-base: white;
 }
 
 /* Global styles */
+
+/* Ensuring links don’t use browser defaults */
+a {
+    color: inherit; /* Matches surrounding text */
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--highlight-color-light); /* Adds hover effect */
+    text-decoration: underline; /* Optional for emphasis */
+}
+
 
 /* Set global font variables */
 body {
@@ -50,9 +70,15 @@ h3 {
 /* Styling for highlighting words in headings */
 .highlight {
     color: var(--secondary-color);
+    font-weight: bold;
+    font-size: inherit;
 }
 
 /* Mixes Section */
+
+.mixes {
+    background-color: var(--background-color-base);
+}
 
 /* Styling for mixes platform icons */
 .mixes__platforms {
@@ -62,6 +88,8 @@ h3 {
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -76,8 +104,6 @@ section {
 .usps div,
 .usps header,
 .about div,
-.mixes div,
-.booking div,
 nav,
 footer {
     border: 2px solid white;
@@ -91,29 +117,29 @@ footer {
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
-    height: 20vh; /* Optional: Adjust the height as needed */
-    text-align: center; /* Ensure text aligns centrally */
-    background-color: #f5f5f5; /* Optional: Add a background to make the section stand out */
+    height: 20vh;
+    text-align: center;
+    color: white;
 }
 
 .booking__cta {
     display: flex;
     flex-direction: column; /* Stack elements vertically */
     align-items: center; /* Center-align the content horizontally */
-    gap: 20px; /* Adds space between the elements */
+    gap: 20px; 
 }
 
 .booking__button {
     background-color: var(--highlight-color-light);
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 0.5rem 1rem;
     font-size: 1rem;
     cursor: pointer;
-    border-radius: 5px; /* Optional: Adds rounded corners */
+    border-radius: 5px; 
     transition: background-color 0.3s ease;
 }
 
 .booking__button:hover {
-    background-color: #007ea7; /* Optional: Change color on hover */
+    background-color: #007ea7;
 }
