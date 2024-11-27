@@ -74,6 +74,17 @@ h3 {
     font-size: inherit;
 }
 
+/* Navbar */
+.navbar {
+    /* set color of navbar */
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 70px;
+}
+
+
 /* Mixes Section */
 
 .mixes {
@@ -95,7 +106,7 @@ h3 {
 
 /* grid visualisation CSS for testing */
 
-header,
+/*header,
 section {
     border: 2px solid black;
 }
