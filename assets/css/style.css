@@ -8,7 +8,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     overflow-x: hidden; /* Prevent horizontal overflow */
@@ -17,46 +18,73 @@ html, body {
 /* CSS Variables */
 :root {
     --primary-font: 'Montserrat', sans-serif;
-    /* black */
     --primary-color: black;
     /* orange */
     --secondary-color: #d27d60;
     /* blue */
     --highlight-color-light: #1fa2c2;
-    /* white */
     --background-color-base: white;
+    --logo-width: 70px;
+    --hero-height: 600px;
+    --gap-size: 20px;
 }
 
 /* Global styles */
 
 /* Ensuring links don’t use browser defaults */
 a {
-    color: inherit; /* Matches surrounding text */
+    color: inherit;
     text-decoration: none;
 }
 
 a:hover {
-    color: var(--highlight-color-light); /* Adds hover effect */
-    text-decoration: underline; /* Optional for emphasis */
+    color: var(--highlight-color-light);
 }
 
+/* Set common flex variables */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero,
+.booking,
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /* Set global font variables */
 body {
     font-family: var(--primary-font);
     background-color: var(--primary-color);
+    color: white;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+}
+
+h1, h3 {
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 100;
+    font-size: 1rem;
 }
 
 /* For hiding the main heading as it's only used for sematic purposes */
 .hero__hidden-heading {
     display: none;
-}
-
-/* Make h3 heading bold and centered */
-h3 {
-    font-weight: bold;
-    letter-spacing: 0.1rem;
-    text-align: center;
 }
 
 /* Style cta buttons */
@@ -76,33 +104,67 @@ h3 {
 
 /* Navbar */
 .navbar {
-    /* set color of navbar */
     background-color: var(--primary-color);
 }
 
 #navbar .logo {
-    width: 70px;
+width: var(--logo-width);
+}
+
+/* Hero Section Styling */
+.hero {
+    position: relative;
+    height: var(--hero-height);
+    width: 100vw;
+    background: url("/assets/images/hero-image-grad.webp") no-repeat top center;
+    background-size: 1050px auto; /* set bg image size - use media queries here */
+    padding-top: 390px;
+    margin: 0 auto;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.hero__text {
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 1rem;
+}
+
+.hero p, h2 {
+    font-size: 0.8rem;
+}
+
+.hero__logo img {
+    position: absolute;
+    top: 53%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    z-index: 1;
 }
 
 
 /* Mixes Section */
-
 .mixes {
     background-color: var(--background-color-base);
 }
 
-/* Styling for mixes platform icons */
 .mixes__platforms {
     font-size: 4rem;
-    text-align: center;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: var(--gap-size);
     margin-top: 20px;
-    color: white;
-    text-decoration: none;
 }
 
+.mixes__platform {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
 
 /* grid visualisation CSS for testing */
 
@@ -111,7 +173,6 @@ section {
     border: 2px solid black;
 }
 
-.hero div,
 .usps div,
 .usps header,
 .about div,
@@ -121,13 +182,11 @@ footer {
     background-color: lightgrey;
 }
 
-
-/* Footer / contact */
-
+/* Footer / contact styling */
 .booking {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center; /* horizontally */
+    align-items: center; /* vertically */
     height: 20vh;
     text-align: center;
     color: white;
@@ -135,22 +194,24 @@ footer {
 
 .booking__cta {
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center-align the content horizontally */
-    gap: 20px; 
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
+.hero__button,
 .booking__button {
     background-color: var(--highlight-color-light);
     color: white;
     border: none;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
+    padding: 0.3rem 1rem;
+    font-size: 0.8rem;
     cursor: pointer;
-    border-radius: 5px; 
+    border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
+.hero__button:hover,
 .booking__button:hover {
     background-color: #007ea7;
 }
