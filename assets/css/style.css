@@ -129,7 +129,7 @@ p {
     position: relative;
     height: var(--hero-height);
     width: 100vw;
-    background: url("/assets/images/hero-image-grad.webp") no-repeat top center;
+    background: url("../images/hero-image-grad.webp") no-repeat top center;
     background-size: 1050px auto;
     /* set bg image size - use media queries here */
     padding-top: 22.5rem;
