@@ -230,17 +230,17 @@ color: var(--primary-color);
 
 .usps__experience {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0) 100%),
-                url('/assets/images/experience-audience.webp') no-repeat center center; /* Add gradient & image */
+                url('../images/experience-audience.webp') no-repeat center center; /* Add gradient & image */
 }
 
 .usps__music {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0) 100%),
-                url('/assets/images/music-dancers.webp') no-repeat center center; /* Add gradient & image */
+                url('../images/music-dancers.webp') no-repeat center center; /* Add gradient & image */
 }
 
 .usps__equipment {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0) 100%),
-                url('/assets/images/immersive-equipment.webp') no-repeat center center; /* Add gradient & image */
+                url('../images/immersive-equipment.webp') no-repeat center center; /* Add gradient & image */
 }
 
 .about__link,
