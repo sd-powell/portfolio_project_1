@@ -467,3 +467,14 @@ p {
         border-radius: 5px;
     }
 }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* Change about section on larger screens */
+    .about__container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+    }
+}
