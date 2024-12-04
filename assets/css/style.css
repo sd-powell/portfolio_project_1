@@ -477,4 +477,20 @@ p {
         align-items: center;
         gap: 2rem;
     }
+
+    /* Change size of mixes icons */
+    .mixes__platform {
+        font-size: 5.3rem;
+        color: var(--background-color-base);
+        text-decoration: none;
+        margin-bottom: 5px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 140px;
+        height: 140px;
+        background-color: var(--primary-color);
+        border-radius: 50%;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
 }
