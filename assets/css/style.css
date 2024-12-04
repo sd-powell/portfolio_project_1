@@ -154,7 +154,7 @@ a:hover {
 .usps,
 .mixes,
 .booking {
-padding: 1.8rem 2rem;
+    padding: 1.8rem 2rem;
 }
 
 
@@ -205,7 +205,7 @@ padding: 1.8rem 2rem;
 }
 
 .usps h3 {
-color: var(--primary-color);
+    color: var(--primary-color);
     margin-bottom: 1.5rem;
 }
 
@@ -230,8 +230,8 @@ color: var(--primary-color);
 }
 
 .usps__card {
-    position: relative; 
-    background-size: cover; 
+    position: relative;
+    background-size: cover;
     background-color: var(--primary-color);
     width: 18rem;
     height: 18rem;
@@ -243,17 +243,20 @@ color: var(--primary-color);
 
 .usps__experience {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0) 100%),
-                url('../images/experience-audience.webp') no-repeat center center; /* Add gradient & image */
+        url('../images/experience-audience.webp') no-repeat center center;
+    /* Add gradient & image */
 }
 
 .usps__music {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0) 100%),
-                url('../images/music-dancers.webp') no-repeat center center; /* Add gradient & image */
+        url('../images/music-dancers.webp') no-repeat center center;
+    /* Add gradient & image */
 }
 
 .usps__equipment {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0) 100%),
-                url('../images/immersive-equipment.webp') no-repeat center center; /* Add gradient & image */
+        url('../images/immersive-equipment.webp') no-repeat center center;
+    /* Add gradient & image */
 }
 
 .about__link,
@@ -375,4 +378,59 @@ color: var(--primary-color);
 .hero__button:hover,
 .booking__button:hover {
     background-color: #007ea7;
+}
+
+/* Media queries */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+/* Enlarge headings */
+h1,
+h3,
+h4 {
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+}
+
+    /* Section padding */
+    .usps,
+    .mixes,
+    .booking {
+        padding: 2.5rem 2rem;
+    }
+
+
+    /* USP section styling */
+    .usps h3 {
+        color: var(--primary-color);
+        margin-bottom: 2rem;
+    }
+
+    .usps h4 {
+        font-size: 1.35rem;
+    }
+
+    .usps p {
+        text-align: left;
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    /* Enlarge USP Cards */
+    .usps__card {
+        position: relative;
+        background-size: cover;
+        background-color: var(--primary-color);
+        width: 23rem;
+        height: 23rem;
+        border-radius: 5px;
+        padding: 1.1rem;
+        padding-top: 15.5rem;
+    }
+
+    .about__link,
+    .usps__card-link {
+        font-weight: 600;
+    }
 }
