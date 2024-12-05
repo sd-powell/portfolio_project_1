@@ -385,25 +385,30 @@ a:hover {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-/* Enlarge headings */
-.hero h1 {
-    font-size: 2rem;
-    line-height: 2.2rem;
-}
 
-h3,
-h4 {
-    font-weight: bold;
-    letter-spacing: 0.1rem;
-    font-size: 1.5rem;
-}
+    /* Enlarge headings */
+    .hero h1 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
 
-p {
-    font-weight: 300;
-    font-size: 1rem;
-    margin-bottom: 0.2rem;
-    line-height: 1.5rem;
-}
+    .hero__text {
+        max-width: 60%;
+    }
+
+    h3,
+    h4 {
+        font-weight: bold;
+        letter-spacing: 0.1rem;
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 1rem;
+        margin-bottom: 0.2rem;
+        line-height: 1.5rem;
+    }
 
     /* Section padding */
     .usps,
@@ -450,6 +455,7 @@ p {
     .about {
         padding: 2.5rem 7.4rem;
     }
+
     .about h3 {
         margin-bottom: 2.5rem;
     }
@@ -478,7 +484,7 @@ p {
         gap: 2rem;
         max-width: 368px;
     }
-    
+
     .about__picture img {
         max-width: 100%;
         width: 368px;
@@ -489,13 +495,35 @@ p {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+
+
+
+    /* Enlarge h2 on larger screens */
+    .hero h2 {
+        font-size: 1rem;
+    }
+
     /* Change about section on larger screens */
-    /* .about__container {
-        display: flex;
+    .about__container {
         flex-direction: row;
-        align-items: center;
-        gap: 2rem;
-    } */
+        justify-content: space-between;
+        align-items: flex-start;
+        text-align: left;
+        gap: 3rem;
+        max-width: 1000px;
+    }
+
+    .about__text {
+        max-width: 60%;
+    }
+
+    .about__text p {
+        margin-bottom: 1rem;
+    }
+
+    .about__picture {
+        flex-shrink: 0;
+    }
 
     /* Change size of mixes icons */
     .mixes__platform {
