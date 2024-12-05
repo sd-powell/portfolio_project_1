@@ -268,9 +268,7 @@ a:hover {
 /* About Section */
 
 .about {
-    display: flex;
     background-color: var(--background-color-dark);
-    flex-direction: column;
     padding: 1.8rem 2rem;
 }
 
@@ -282,7 +280,10 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 2rem;
+    max-width: 288px;
+    margin: 0 auto;
 }
 
 .about__picture img {
@@ -453,11 +454,29 @@ p {
         margin-bottom: 2.5rem;
     }
 
+    /* .about__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+        max-width: 288px;
+        margin: 0 auto;
+    }
+    
+    .about__picture img {
+        max-width: 100%;
+        width: 288px;
+        height: auto;
+        border-radius: 5px;
+    } */
+
     .about__container {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 2rem;
+        max-width: 368px;
     }
     
     .about__picture img {
@@ -471,12 +490,12 @@ p {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     /* Change about section on larger screens */
-    .about__container {
+    /* .about__container {
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 2rem;
-    }
+    } */
 
     /* Change size of mixes icons */
     .mixes__platform {
