@@ -26,6 +26,7 @@ body {
     --background-color-dark: #222222;
     --highlight-color-light: #1fa2c2;
     --background-color-base: white;
+    --button-color-highlight: #1987a3;
     --logo-width: 70px;
     --hero-height: 650px;
     --gap-size: 20px;
@@ -134,7 +135,7 @@ a:hover {
 }
 
 .hero__button {
-    background-color: var(--highlight-color-light);
+    background-color: var(--button-color-highlight);
     color: white;
     border: none;
     padding: 0.3rem 1rem;
@@ -176,7 +177,7 @@ a:hover {
 /* Style cta buttons */
 .hero__button,
 .booking__button {
-    background-color: var(--highlight-color-light);
+    background-color: var(--button-color-highlight);
     border: none;
     color: white;
 }
@@ -365,7 +366,7 @@ a:hover {
 
 .hero__button,
 .booking__button {
-    background-color: var(--highlight-color-light);
+    background-color: var(--button-color-highlight);
     color: white;
     border: none;
     padding: 0.3rem 1rem;
@@ -413,7 +414,8 @@ a:hover {
 }
 
 .footer__links a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: var(--secondary-color);
 }
 
 .footer__socials a {
@@ -424,7 +426,7 @@ a:hover {
 }
 
 .footer__socials a:hover {
-    color: var(--accent-color);
+    color: var(--secondary-color);
 }
 
 .footer__copyright {
@@ -544,6 +546,22 @@ a:hover {
         height: auto;
         border-radius: 5px;
     }
+
+    /* make footer responsive on larger screens */
+    .footer__container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer__links {
+        text-align: left;
+    }
+
+    .footer__socials {
+        text-align: right;
+    }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
