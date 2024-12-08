@@ -198,6 +198,24 @@ a:hover {
     width: var(--logo-width);
 }
 
+/* Navbar socials */
+.navbar__socials {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.navbar__socials a {
+    color: var(--text-color-light);
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar__socials a:hover {
+    color: var(--secondary-color);
+}
+
 /* USP section styling */
 
 .usps {
