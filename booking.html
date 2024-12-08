@@ -108,24 +108,53 @@
         </div>
         <!-- Call-to-Action Heading -->
         <div class="hero__cta">
-            <h1>Get ready to <span class="highlight">elevate</span> your event...</h1>
+            <h1>Book <span class="highlight">DJ Silver Soul</span> for your event...</h1>
         </div>
         <!-- Hero Text Section -->
         <div class="hero__text">
-            <h2>Need classic grooves perfectly tailored to set the vibe and elevate your
-                space?</h2>
             <p>
-                I bring years of DJ experience and a passion for creating the perfect soundtrack to keep your guests on
-                the
-                dancefloor and your event buzzing.
+                Elevate your event with a soundtrack that keeps the energy flowing and your guests on the dancefloor.
+                With over 30 years of experience, DJ Silver Soul specializes in crafting bespoke music experiences
+                tailored to your unique vision.
             </p>
-            <button class="hero__button" aria-label="Click here for all booking enquiries">Book Your Event Now</button>
         </div>
     </header>
 
     <!-- main element to hold all key sections of the home page. It is not part of the grid structure -->
-    <main>
-       Form here
+    <main class="section-light">
+        <!-- Booking/contact inquiry form section -->
+        <section id="booking-form" class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h3>Booking inquiry</h3>
+                    <form action="success.html" method="GET">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="phone" class="form-label">Phone number</label>
+                                <input class="form-control" id="phone" name="phone" type="number" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="date" class="form-label">Date of event</label>
+                                <input class="form-control" id="date" name="date" type="date" required>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="hero__button">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer Section -->
