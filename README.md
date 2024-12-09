@@ -21,6 +21,8 @@ It is designed to:
 * [Design](#item-two)
     * [Colour Scheme](#item-three)
     * [Typography](#item-four)
+    * [Imagery](#item-five)
+    * [Wireframes](#item-six)
 
 
 ---
@@ -78,6 +80,70 @@ Google Fonts was used to import the selected fonts for the site, ensuring high-q
 
 ---
 
+<a id=item-five></a>
 ### Imagery
 
 The imagery on the site was chosen to reflect the vibrancy and minimalist aesthetic of the hero image. High-contrast visuals with bright, bold colors create an engaging and visually striking experience for users. The use of dynamic imagery complements the mood of the site, drawing attention while maintaining a clean, modern design.
+
+---
+
+<a id=item-six></a>
+### Wireframes
+
+Wireframes for mobile, tablet, and desktop views were created using Balsamiq. These wireframes helped map out the structure and layout of the site, ensuring a seamless user experience across all devices. The design process focused on responsive layout adjustments to provide an intuitive interface for users on various screen sizes.
+
+![Home Page](documentation/home-wireframes.webp)
+
+
+
+
+
+
+
+- - -
+
+## Technologies Used
+
+### Languages Used
+
+HTML, CSS, Bootstrap
+
+### Frameworks, Libraries & Programs Used
+
+* [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+
+* [Palette Generator tool](https://palettegenerator.com/) - Used to create colour palette for the site.
+
+* [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html) - Used to design the logo and create visuals.
+
+* [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) - Used to crop, resize, edit and save images to webp format.
+
+* [Git](https://git-scm.com/) - For version control.
+
+* [Github](https://github.com/) - To save and store the files for the website.
+
+* [GitPod](https://gitpod.io/) - IDE used to create the site.
+
+* [Bootstrap](https://getbootstrap.com/) - Open-source CSS framework used for nav and form elements of the site.
+
+* [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+
+* [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+* [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+
+* [Aria DevTools](https://github.com/ziolko/aria-devtools) Used to view the website the way screen readers present it to the blind users.
+
+* [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
+
+---
+
+### Acknowledgments
+
+I would like to acknowledge the following people:
+
+* Jubril Akolade - My Code Institute Mentor.
+
+* Ax de Klerk, Jordan Acomba & Robert Lewis - My fellow Code Institute cohort, who helped each other over the course of our first milestone projects.
+
+* The Code Institute Slack channel Peer Code Review - Thank you to everyone who took the time to view my site and look over the code.
