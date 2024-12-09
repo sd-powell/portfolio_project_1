@@ -74,6 +74,13 @@ a:hover {
     color: var(--highlight-color-light);
 }
 
+/* Styling for highlighting words in headings */
+.highlight {
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: inherit;
+}
+
 /* Utility Classes */
 
 .flex-center {
@@ -99,7 +106,6 @@ a:hover {
     width: 100vw;
     background: url("../images/hero-image-grad-600px.webp") no-repeat top center;
     background-size: 600px auto;
-    /* set bg image size - use media queries here */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -181,13 +187,6 @@ a:hover {
     background-color: var(--button-color-highlight);
     border: none;
     color: white;
-}
-
-/* Styling for highlighting words in headings */
-.highlight {
-    color: var(--secondary-color);
-    font-weight: bold;
-    font-size: inherit;
 }
 
 /* Navbar */
@@ -581,21 +580,6 @@ a:hover {
         border-radius: 5px;
     }
 
-    /* make footer responsive on larger screens */
-    .footer__container {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .footer__links {
-        text-align: left;
-    }
-
-    .footer__socials {
-        text-align: right;
-    }
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -654,4 +638,19 @@ a:hover {
         border-radius: 50%;
         transition: transform 0.3s ease, background-color 0.3s ease;
     }
+
+        /* make footer responsive on larger screens */
+        .footer__container {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+        .footer__links {
+            text-align: left;
+        }
+    
+        .footer__socials {
+            text-align: right;
+        }
 }
