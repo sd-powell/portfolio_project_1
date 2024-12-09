@@ -61,3 +61,8 @@ To draw attention to key areas, I incorporated highlight colors:
 These highlights were carefully selected to contrast against the primary colors, ensuring important elements stand out and guide the user’s focus effectively.
 
 ---
+
+### Typography
+
+Google Fonts was used to import the chosen fonts for use in the site.
+
