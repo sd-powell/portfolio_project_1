@@ -61,7 +61,7 @@ h4 {
 
 p {
     font-family: var(--secondary-font);
-    font-weight: 400;
+    font-weight: 500;
     font-size: 0.8rem;
     margin-bottom: 0.2rem;
 }
@@ -515,7 +515,7 @@ a:hover {
     }
 
     p {
-        font-weight: 300;
+        font-weight: 400;
         font-size: 1rem;
         margin-bottom: 0.2rem;
         line-height: 1.5rem;
@@ -639,7 +639,7 @@ a:hover {
         }
     
         p {
-            font-weight: 300;
+            font-weight: 400;
             font-size: 1rem;
             margin-bottom: 0.2rem;
             line-height: 1.5rem;

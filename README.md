@@ -20,6 +20,7 @@ It is designed to:
 
 * [Design](#item-two)
     * [Colour Scheme](#item-three)
+    * [Typography](#item-four)
 
 
 ---
@@ -62,7 +63,21 @@ These highlights were carefully selected to contrast against the primary colors,
 
 ---
 
+<a id=item-four></a>
 ### Typography
 
-Google Fonts was used to import the chosen fonts for use in the site.
+Google Fonts was used to import the selected fonts for the site, ensuring high-quality and easily accessible typography.
 
+* **h1, h2 and h3 headings:** The font [Montserrat](https://fonts.google.com/specimen/Montserrat?preview.text=Get%20ready%20to%20elevate%20your%20event&query=open+sans) was chosen for its modern, clean, and sans-serif style. This typeface draws inspiration from the traditional posters and signs of the Montserrat neighborhood in Buenos Aires, lending a sense of history while maintaining a contemporary aesthetic.
+
+![Montserrat Font Example](documentation/montserrat.webp)
+
+* **paragraph elements:** The font [Open Sans](https://fonts.google.com/specimen/Open+Sans) was chosen for it's friendly and approchable look. With its humanist design, open letterforms, and low x-height, Open Sans delivers both warmth and readability. Its versatility and high legibility make it an excellent choice for paragraph text, ensuring a comfortable reading experience across various devices and screen sizes.
+
+![Open Sans Font Example](documentation/open-sans.webp)
+
+---
+
+### Imagery
+
+The imagery on the site was chosen to reflect the vibrancy and minimalist aesthetic of the hero image. High-contrast visuals with bright, bold colors create an engaging and visually striking experience for users. The use of dynamic imagery complements the mood of the site, drawing attention while maintaining a clean, modern design.
