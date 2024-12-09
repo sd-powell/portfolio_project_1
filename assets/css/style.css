@@ -97,8 +97,8 @@ a:hover {
     position: relative;
     height: var(--hero-height);
     width: 100vw;
-    background: url("../images/hero-image-grad-small.webp") no-repeat top center;
-    background-size: 1050px auto;
+    background: url("../images/hero-image-grad-600px.webp") no-repeat top center;
+    background-size: 600px auto;
     /* set bg image size - use media queries here */
     display: flex;
     flex-direction: column;
@@ -468,6 +468,12 @@ a:hover {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
+    /* Enlarge hero image on larger screens */
+    .hero {
+        background: url("../images/hero-image-grad-768px.webp") no-repeat top center;
+        background-size: 768px auto;
+    }
+
     /* Enlarge headings */
     .hero h1 {
         font-size: 2rem;
@@ -590,6 +596,15 @@ a:hover {
         text-align: right;
     }
 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+        /* Enlarge hero image on larger screens */
+        .hero {
+            background: url("../images/hero-image-grad-992px.webp") no-repeat top center;
+            background-size: 992px auto;
+        }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
