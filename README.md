@@ -18,6 +18,9 @@ It is designed to:
 
 * [User Experience](#item-one)
 
+* [Design](#item-two)
+    * [Colour Scheme](#item-three)
+
 
 ---
 
@@ -35,3 +38,26 @@ The key UX considerations include:
 6. **Accessibility** - The site follows modern accessibility standards, including high-contrast colors, readable fonts, and keyboard navigation support, ensuring inclusivity for all users
 7. **Personal Connection** - Content is crafted to reflect the DJ's passion and experience
 
+---
+
+<a id=item-two></a>
+## Design
+
+<a id=item-three></a>
+### Colour Scheme
+
+The colour scheme of my site is inspired by the hero background image. This image evokes the vibrant atmosphere of a nightclub, with its interplay of dark spaces and dynamic highlights of orange and blue. These colors set the tone for a modern, energetic, and immersive user experience.
+
+To create a cohesive and visually appealing color palette for my site, I used the [Palette Generator tool](https://palettegenerator.com/). This allowed me to extract the predominant colors directly from the hero background image.
+
+Using this tool ensured that my color scheme harmonized with the key visuals of the site, creating a consistent and immersive user experience. To ensure consistency and maintainability, I declared all color values as CSS variables in the :root selector. This approach allows me to apply colors consistently throughout the site and makes it easy to update the color scheme by changing the values in one place.
+
+The primary colors for my site are black and white, providing a clean and timeless foundation that enhances readability and usability.
+
+To draw attention to key areas, I incorporated highlight colors:
+* `#d27d60` Used to emphasize elements that convey warmth and energy.
+* `#1987a3` Applied to call-to-action buttons and other interactive elements, creating a sense of trust and urgency.
+
+These highlights were carefully selected to contrast against the primary colors, ensuring important elements stand out and guide the user’s focus effectively.
+
+---
