@@ -161,7 +161,8 @@ a:hover {
 
 .usps,
 .mixes,
-.booking {
+.booking,
+.booking-form__text {
     padding: 1.8rem 2rem;
 }
 
@@ -370,8 +371,24 @@ a:hover {
     padding-top: 4rem;
 }
 
-#booking-form h3 {
+.booking-form__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.booking-form__text h3 {
     margin-bottom: 2rem;
+}
+
+.booking-form__text li {
+    font-weight: 500;
+    font-size: 1rem;
+    list-style-type: none;
+    /* margin-bottom: 0.2rem; */
 }
 
 /* Footer styling */
@@ -475,13 +492,18 @@ a:hover {
 
     /* Enlarge headings */
     .hero h1 {
-        font-size: 2rem;
+        font-size: 1.4rem;
         line-height: 2.2rem;
+    }
+
+    .hero h2 {
+        font-size: 1rem;
+        line-height: 1.6rem;
     }
 
     /* Constrain width of hero text on larger screens */
     .hero__text {
-        max-width: 60%;
+        max-width: 80%;
     }
 
     h3,
@@ -584,17 +606,72 @@ a:hover {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-        /* Enlarge hero image on larger screens */
-        .hero {
-            background: url("../images/hero-image-grad-992px.webp") no-repeat top center;
-            background-size: 992px auto;
+
+    /* Enlarge hero image on larger screens */
+    .hero {
+        background: url("../images/hero-image-grad-992px.webp") no-repeat top center;
+        background-size: 992px auto;
+    }
+
+    /* Adjust hero logo on larger screens */
+    .hero__logo img {
+        top: 48%;
+        left: 48%;
+    }
+
+        /* Enlarge headings */
+        .hero h1 {
+            font-size: 2rem;
+            line-height: 2.2rem;
         }
+    
+        /* Constrain width of hero text on larger screens */
+        .hero__text {
+            max-width: 60%;
+        }
+    
+        h3,
+        h4 {
+            font-weight: bold;
+            letter-spacing: 0.1rem;
+            font-size: 1.5rem;
+        }
+    
+        p {
+            font-weight: 300;
+            font-size: 1rem;
+            margin-bottom: 0.2rem;
+            line-height: 1.5rem;
+        }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    /* Enlarge hero image on larger screens */
+    .hero {
+        background: url("../images/hero-image-grad-1050px.webp") no-repeat top center;
+        background-size: 1050px auto;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
+    /* Enlarge hero image on larger screens */
+    .hero {
+        background: url("../images/hero-image-grad.webp") no-repeat top center;
+        background-size: 1500px auto;
+        height: 700px;
+        padding-top: 28rem;
+        max-width: 1200px;
+    }
 
+    /* Adjust hero logo on larger screens */
+    .hero__logo img {
+        top: 57%;
+        left: 48%;
+    }
 
     /* Enlarge h2 on larger screens */
     .hero h2 {
@@ -639,18 +716,18 @@ a:hover {
         transition: transform 0.3s ease, background-color 0.3s ease;
     }
 
-        /* make footer responsive on larger screens */
-        .footer__container {
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-        }
-    
-        .footer__links {
-            text-align: left;
-        }
-    
-        .footer__socials {
-            text-align: right;
-        }
+    /* make footer responsive on larger screens */
+    .footer__container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer__links {
+        text-align: left;
+    }
+
+    .footer__socials {
+        text-align: right;
+    }
 }
