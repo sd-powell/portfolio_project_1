@@ -1,3 +1,15 @@
+<div>
+<img src="assets/images/dj-silver-soul-logo.svg" alt="DJ Silver Soul Logo" style="width: 200px; padding-bottom: 20px;">
+</div>
+
+# Get ready to <span style="color: #d27d60">elevate</span> your event...
+
+---
+
+![DJ Silver Soul website shown in a variety of screen sizes](documentation/dj-silver-soul-responsive.webp)
+
+Visit the deployed site here: [DJ Silver Soul](https://sd-powell.github.io/portfolio_project_1/)
+
 ## Aim of the site
 
 The goal of this website is to serve as a central hub for showcasing DJ Silver Soul’s 30+ years of DJing expertise, highlighting his passion for soulful & deep house, soul, funk, jazz, and disco.
@@ -23,6 +35,7 @@ It is designed to:
     * [Typography](#item-four)
     * [Imagery](#item-five)
     * [Wireframes](#item-six)
+    * [Features](#item-seven)
 
 
 ---
@@ -78,6 +91,8 @@ Google Fonts was used to import the selected fonts for the site, ensuring high-q
 
 ![Open Sans Font Example](documentation/open-sans.webp)
 
+* **social media icons:** [Font Awesome](https://fontawesome.com/) library icons were used for the social media icons and icons in the mixes section.
+
 ---
 
 <a id=item-five></a>
@@ -86,6 +101,17 @@ Google Fonts was used to import the selected fonts for the site, ensuring high-q
 The imagery on the site was chosen to reflect the vibrancy and minimalist aesthetic of the hero image. High-contrast visuals with bright, bold colors create an engaging and visually striking experience for users. The use of dynamic imagery complements the mood of the site, drawing attention while maintaining a clean, modern design.
 
 ---
+
+## User Stories
+
+#### New Site Users
+- As a new site user, I want to learn about the DJ’s background, style, and experience so that I can connect with their journey and understand why they’re the right choice for my event or music needs.
+- As a new site user, I want to browse and listen to sample mixes or sets to understand the DJ’s style and see if it suits my preferences or event.
+- As a new site user, I want to clearly understand what makes the DJ unique, so that I can decide if their style and services match my event needs.
+-  As a new site user, I want to fill out a booking inquiry form with event details, so I can get a response with availability and pricing.
+
+### Returning Site Users
+- 
 
 <a id=item-six></a>
 ### Wireframes
@@ -96,6 +122,7 @@ Wireframes for mobile, tablet, and desktop views were created using Balsamiq. Th
 
 ---
 
+<a id=item-seven></a>
 ## Features
 
 The website is comprised of a home page, an about page, a booking form page and a form submit success page.
@@ -103,6 +130,12 @@ The website is comprised of a home page, an about page, a booking form page and 
 All Pages on the website are responsive and have:
 
 * A favicon in the browser tab.
+
+![favicon](documentation/dj-silver-soul-favicon.webp)
+
+#### The Home Page
+
+
 
 - - -
 
