@@ -125,10 +125,34 @@ a:hover {
     padding-right: 45px;
 }
 
+.about-hero {
+    position: relative;
+    height: var(--hero-height);
+    width: 100vw;
+    background: url("../images/event-party-hero-992px.webp") no-repeat top center;
+    background-size: 1200px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35rem;
+    margin: 0 auto;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
 .hero__logo img {
     position: absolute;
     top: 48%;
     left: 45%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    z-index: 1;
+}
+
+.about-hero__logo img {
+    position: absolute;
+    top: 78%;
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 200px;
     z-index: 1;
@@ -668,6 +692,7 @@ a:hover {
 
     .about__text {
         max-width: 60%;
+        font-family: var(--secondary-font);
     }
 
     .about__text p {

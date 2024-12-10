@@ -94,11 +94,15 @@ Wireframes for mobile, tablet, and desktop views were created using Balsamiq. Th
 
 ![Home Page](documentation/home-wireframes.webp)
 
+---
 
+## Features
 
+The website is comprised of a home page, an about page, a booking form page and a form submit success page.
 
+All Pages on the website are responsive and have:
 
-
+* A favicon in the browser tab.
 
 - - -
 
@@ -128,11 +132,13 @@ HTML, CSS, Bootstrap
 
 * [Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
 
+* [Font Awesome](https://fontawesome.com/) - Icon library toolkit for social media icons.
+
 * [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-* [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+* [Am I Responsive?](http://ami.responsivedesign.is/) - To show the website image on a range of devices.
 
-* [Aria DevTools](https://github.com/ziolko/aria-devtools) Used to view the website the way screen readers present it to the blind users.
+* [Aria DevTools](https://github.com/ziolko/aria-devtools) - Used to view the website the way screen readers present it to the blind users.
 
 * [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
 
