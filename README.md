@@ -29,18 +29,38 @@ It is designed to:
 ## CONTENTS
 
 * [User Experience](#item-one)
+    * [User Stories](#item-two)
 
-* [Design](#item-two)
-    * [Colour Scheme](#item-three)
-    * [Typography](#item-four)
-    * [Imagery](#item-five)
-    * [Wireframes](#item-six)
-    * [Features](#item-seven)
+* [Design](#item-three)
+    * [Colour Scheme](#item-four)
+    * [Typography](#item-five)
+    * [Imagery](#item-six)
+    * [Wireframes](#item-seven)
+        * [Mobile Wireframes](#item-eight)
+        * [Tablet Wireframes](#item-nine)
+        * [Desktop Wireframes](#item-ten)
+    * [Features](#item-eleven)
+        * [The Home Page](#item-twelve)
 
+* [Technologies Used]
+    * [Languages Used]
+    * [Frameworks, Libraries & Programs Used]
+
+* [Deployment & Local Development]
+    * [Deployment]
+    * [Local Development]
+        * [How to Fork]
+        * [How to clone]
+
+* [Credits]
+    * [Content]
+    * [Media]
+    * [Acknowledgement]
 
 ---
 
 <a id=item-one></a>
+
 ## User Experience (UX)
 
 The website is designed with user-centric principles to ensure a seamless and engaging experience for all visitors. 
@@ -54,12 +74,31 @@ The key UX considerations include:
 6. **Accessibility** - The site follows modern accessibility standards, including high-contrast colors, readable fonts, and keyboard navigation support, ensuring inclusivity for all users
 7. **Personal Connection** - Content is crafted to reflect the DJ's passion and experience
 
+<a id=item-two></a>
+
+### User Stories
+
+#### New Site Users
+- As a new site user, I want to learn about the DJ’s background, style, and experience so that I can connect with their journey and understand why they’re the right choice for my event or music needs.
+- As a new site user, I want to browse and listen to sample mixes or sets to understand the DJ’s style and see if it suits my preferences or event.
+- As a new site user, I want to clearly understand what makes the DJ unique, so that I can decide if their style and services match my event needs.
+-  As a new site user, I want to fill out a booking inquiry form with event details, so I can get a response with availability and pricing.
+-  As a new site user, I want to see links to the DJ’s social media profiles so I can follow and engage with the DJ on different platforms.
+
+### Returning Site Users
+- As a returning site user, I want quick access to the DJ’s contact details so that I can reach out directly for repeat bookings.
+- As a returning site user, I want to share a link to share the site with friends, family, or colleagues who might need a DJ.
+- As a returning site user, I want to access the social media profiles or any other content tied to the DJ's professional presence.
+- As a returning site user, I want to revisit the site for inspiration, such as reading about the DJs style or listening to the latest mixes.
+
 ---
 
-<a id=item-two></a>
+<a id=item-three></a>
+
 ## Design
 
-<a id=item-three></a>
+<a id=item-four></a>
+
 ### Colour Scheme
 
 The colour scheme of my site is inspired by the hero background image. This image evokes the vibrant atmosphere of a nightclub, with its interplay of dark spaces and dynamic highlights of orange and blue. These colors set the tone for a modern, energetic, and immersive user experience.
@@ -76,9 +115,8 @@ To draw attention to key areas, I incorporated highlight colors:
 
 These highlights were carefully selected to contrast against the primary colors, ensuring important elements stand out and guide the user’s focus effectively.
 
----
+<a id=item-five></a>
 
-<a id=item-four></a>
 ### Typography
 
 Google Fonts was used to import the selected fonts for the site, ensuring high-quality and easily accessible typography.
@@ -93,36 +131,53 @@ Google Fonts was used to import the selected fonts for the site, ensuring high-q
 
 * **social media icons:** [Font Awesome](https://fontawesome.com/) library icons were used for the social media icons and icons in the mixes section.
 
----
+<a id=item-six></a>
 
-<a id=item-five></a>
 ### Imagery
 
 The imagery on the site was chosen to reflect the vibrancy and minimalist aesthetic of the hero image. High-contrast visuals with bright, bold colors create an engaging and visually striking experience for users. The use of dynamic imagery complements the mood of the site, drawing attention while maintaining a clean, modern design.
 
----
+<a id=item-seven></a>
 
-## User Stories
-
-#### New Site Users
-- As a new site user, I want to learn about the DJ’s background, style, and experience so that I can connect with their journey and understand why they’re the right choice for my event or music needs.
-- As a new site user, I want to browse and listen to sample mixes or sets to understand the DJ’s style and see if it suits my preferences or event.
-- As a new site user, I want to clearly understand what makes the DJ unique, so that I can decide if their style and services match my event needs.
--  As a new site user, I want to fill out a booking inquiry form with event details, so I can get a response with availability and pricing.
-
-### Returning Site Users
-- 
-
-<a id=item-six></a>
 ### Wireframes
 
-Wireframes for mobile, tablet, and desktop views were created using Balsamiq. These wireframes helped map out the structure and layout of the site, ensuring a seamless user experience across all devices. The design process focused on responsive layout adjustments to provide an intuitive interface for users on various screen sizes.
+Wireframes for mobile, tablet, and desktop views were created using [Balsamiq](https://balsamiq.com/). These wireframes helped map out the structure and layout of the site, ensuring a seamless user experience across all devices. The design process focused on responsive layout adjustments to provide an intuitive interface for users on various screen sizes.
 
-![Home Page](documentation/home-wireframes.webp)
+<a id=item-eight></a>
 
----
+#### Mobile Wireframes
 
-<a id=item-seven></a>
+<details>
+<summary> Click here to see the Mobile Wireframe </summary>
+
+ ![Home](documentation/mobile-wireframe-home.webp)
+
+</details>
+
+<a id=item-nine></a>
+
+#### Tablet Wireframes
+
+<details>
+<summary> Click here to see the Tablet Wireframe </summary>
+
+ ![Home](documentation/tablet-wireframe-home.webp)
+
+ </details>
+
+<a id=item-ten></a>
+
+ #### Desktop Wireframes
+
+<details>
+<summary> Click here to see the Desktop Wireframes </summary>
+
+ ![Home](documentation/desktop-wireframe-home.webp)
+
+ </details>
+
+<a id=item-eleven></a>
+
 ## Features
 
 The website is comprised of a home page, an about page, a booking form page and a form submit success page.
@@ -131,13 +186,18 @@ All Pages on the website are responsive and have:
 
 * A favicon in the browser tab.
 
+<details>
+<summary> Click here to view the favicon </summary>
+
 ![favicon](documentation/dj-silver-soul-favicon.webp)
+
+</details>
 
 #### The Home Page
 
 
 
-- - -
+---
 
 ## Technologies Used
 
@@ -175,7 +235,7 @@ HTML, CSS, Bootstrap
 
 * [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
 
-- - -
+---
 
 ## Deployment & Local Development
 
@@ -212,7 +272,7 @@ To clone the repository:
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
-- - -
+---
 
 ### Acknowledgments
 
