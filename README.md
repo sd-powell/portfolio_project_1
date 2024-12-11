@@ -107,13 +107,17 @@ To create a cohesive and visually appealing color palette for my site, I used th
 
 Using this tool ensured that my color scheme harmonized with the key visuals of the site, creating a consistent and immersive user experience. To ensure consistency and maintainability, I declared all color values as CSS variables in the :root selector. This approach allows me to apply colors consistently throughout the site and makes it easy to update the color scheme by changing the values in one place.
 
-The primary colors for my site are black and white, providing a clean and timeless foundation that enhances readability and usability.
+The primary colors for my site are black (#000000) and white (#ffffff), providing a clean and timeless foundation that enhances readability and usability.
 
 To draw attention to key areas, I incorporated highlight colors:
 * `#d27d60` Used to emphasize elements that convey warmth and energy.
+* `#f5e5df` Used as a soft backgound tint to contrast the white background.
 * `#1987a3` Applied to call-to-action buttons and other interactive elements, creating a sense of trust and urgency.
+* `#222222` Applied to the about sections as an alternative to the black primary colour.
 
 These highlights were carefully selected to contrast against the primary colors, ensuring important elements stand out and guide the user’s focus effectively.
+
+![Hex swatch pallette](documentation/hex-swatches.webp)
 
 <a id=item-five></a>
 
@@ -135,7 +139,7 @@ Google Fonts was used to import the selected fonts for the site, ensuring high-q
 
 ### Imagery
 
-The imagery on the site was chosen to reflect the vibrancy and minimalist aesthetic of the hero image. High-contrast visuals with bright, bold colors create an engaging and visually striking experience for users. The use of dynamic imagery complements the mood of the site, drawing attention while maintaining a clean, modern design.
+The imagery on the site was chosen to reflect the vibrancy and minimalist aesthetic of the hero image. High-contrast visuals with bright, bold colors create an engaging and visually striking experience for users. The use of dynamic imagery complements the mood of the site, drawing attention while maintaining a clean, modern design. All images were sourced from [Adobe Stock](https://stock.adobe.com/).
 
 <a id=item-seven></a>
 
@@ -214,6 +218,8 @@ HTML, CSS, Bootstrap
 * [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html) - Used to design the logo and create visuals.
 
 * [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) - Used to crop, resize, edit and save images to webp format.
+
+* [Adobe Stock](https://stock.adobe.com/) - Used to source royalty free imagery for the site.
 
 * [Git](https://git-scm.com/) - For version control.
 
