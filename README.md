@@ -204,15 +204,15 @@ All Pages on the website are responsive and have:
 #### The Home Page
 
 <details>
-<summary> Click here to view the homepage </summary>
+<summary> Click here to view the home page </summary>
 
-![DJ Silver Soul homepage shown in a variety of screen sizes](documentation/dj-silver-soul-responsive.webp)
+![DJ Silver Soul home page shown in a variety of screen sizes](documentation/dj-silver-soul-responsive.webp)
 
 </details>
 
 ---
 
-The homepage is designed to provide an engaging and welcoming introduction to the DJ’s services. Key features include:
+The home page is designed to provide an engaging and welcoming introduction to the DJ’s services. Key features include:
 
 1. **Hero Section:** A visually captivating banner with the DJ’s logo, tagline, and a clear call-to-action button for easy navigation.
 2.	**Unique Selling Points (USPs):** Highlights of the DJ’s experience, musical expertise, and state-of-the-art equipment through visually appealing cards with background imagery.
@@ -220,16 +220,16 @@ The homepage is designed to provide an engaging and welcoming introduction to th
 4. **Call-to-Action:** A booking section that encourages users to inquire about the DJ’s availability for events.
 5. **Footer:** A clean footer with social media links and site navigation, ensuring easy access to additional information.
 
-The homepage is optimized for both first-time and returning visitors, ensuring an intuitive and aesthetically pleasing user experience.
+The home page is optimized for both first-time and returning visitors, ensuring an intuitive and aesthetically pleasing user experience.
 
 <a id=item-thirteen></a>
 
 #### The Booking Page
 
 <details>
-<summary> Click here to view the homepage </summary>
+<summary> Click here to view the booking page </summary>
 
-![DJ Silver Soul homepage shown in a variety of screen sizes](documentation/dj-silver-soul-responsive-booking.webp)
+![DJ Silver Soul booking page shown in a variety of screen sizes](documentation/dj-silver-soul-responsive-booking.webp)
 
 </details>
 
@@ -242,15 +242,36 @@ The booking page is designed to streamline event inquiries, ensuring that potent
 	2. **Date, Time & Location:** Asking the user to input the event’s scheduled date and time, ensuring the DJ’s availability aligns with their needs.
     3. **Music Preferences:** Asking the user to share specific genres, artists, or overall vibes they want to include, helping tailor the music to their vision.
 
-* Form fields are provided for the user to input their information
+*   Form fields are provided for the user to input their information
     1. **Contact Information:** Fields for name, email, and phone number to enable seamless follow-up communication.
     2. **Date of Event:** A field with a date picker makes it easy for the user to choose a specific date.
 	3. **Additional Message:** A text area for clients to include any extra details or specific requests listed in the introductory text.
 	
-*   **Instructions and Guidance:** Clear, concise text explaining how to complete the form and what to expect after submission.
+*   **Instructions and Guidance:** Clear, concise text explaining how to complete the form and what to expect after     submission.
 	1. **Submit Confirmation:** Upon submission, users are directed to a success page confirming receipt of their inquiry and outlining the next steps.
 
 The booking page’s purpose is to simplify the inquiry process while gathering all the necessary details to ensure a tailored and professional service.
+
+#### The About Page
+
+<details>
+<summary> Click here to view the about page </summary>
+
+![DJ Silver Soul about page shown in a variety of screen sizes](documentation/dj-silver-soul-responsive-about.webp)
+
+</details>
+
+---
+
+The About page provides a comprehensive introduction to the DJ and their services, focusing on building trust and connection with visitors. Key features include:
+
+1. **Hero section:** A vibrant banner with the DJ’s logo and section heading.
+2. **Introduction to the DJ:** A compelling narrative about the DJ’s journey, expertise, and passion for music.
+3. **Image of the DJ:** Showing the DJ at work with vinyl records, highlighting the DJ's expertise.
+4. **Featured Mixes:** Another opportunity for the use to access interactive links to popular mixes, offering visitors a chance to experience the DJ’s sound directly.
+4. **Call-to-Action:** A booking section that encourages users to inquire about the DJ’s availability for events.
+
+The About page’s purpose is to showcase the DJ’s story, establish credibility, and inspire visitors to learn more or book their services.
 
 ---
 
