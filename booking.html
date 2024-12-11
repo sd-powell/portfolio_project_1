@@ -140,23 +140,23 @@
                         <div class="row">
                             <div class="col-12 col-lg-6 mb-3">
                                 <label for="name" class="form-label">Name</label>
-                                <input class="form-control" id="name" name="name" type="text" required>
+                                <input class="form-control" id="name" name="name" type="text" required pattern="\S(.*\S)?" title="This field is required" required>
                             </div>
                             <div class="col-12 col-lg-6 mb-3">
                                 <label for="email" class="form-label">Email</label>
-                                <input class="form-control" id="email" name="email" type="email" required>
+                                <input class="form-control" id="email" name="email" type="email" required pattern="\S(.*\S)?" title="This field is required" required>
                             </div>
                             <div class="col-12 col-lg-6 mb-3">
                                 <label for="phone" class="form-label">Phone number</label>
-                                <input class="form-control" id="phone" name="phone" type="number" required>
+                                <input class="form-control" id="phone" name="phone" type="number" required pattern="\S(.*\S)?" title="This field is required" required>
                             </div>
                             <div class="col-12 col-lg-6 mb-3">
                                 <label for="date" class="form-label">Date of event</label>
-                                <input class="form-control" id="date" name="date" type="date" required>
+                                <input class="form-control" id="date" name="date" type="date" required pattern="\S(.*\S)?" title="This field is required" required>
                             </div>
                             <div class="col-12 mb-3">
                                 <label for="message" class="form-label">Message</label>
-                                <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
+                                <textarea class="form-control" rows="6" id="message" name="message" required pattern="\S(.*\S)?" title="This field is required" required></textarea>
                             </div>
                         </div>
                         <button type="submit" class="button">Submit</button>
