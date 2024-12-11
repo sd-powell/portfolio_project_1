@@ -314,8 +314,6 @@ HTML, CSS, Bootstrap
 
 * [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) - Used to crop, resize, edit and save images to webp format.
 
-* [Adobe Stock](https://stock.adobe.com/) - Used to source royalty free imagery for the site.
-
 * [Git](https://git-scm.com/) - For version control.
 
 * [Github](https://github.com/) - To save and store the files for the website.
@@ -374,6 +372,33 @@ To clone the repository:
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 ---
+
+## Testing
+
+Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
+
+---
+
+## Credits
+
+* I used this [github cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) as a reference for how to format markdown.
+* I found this [YouTube tutorial](https://www.youtube.com/watch?v=EKqhENATIKg) by [Patrick Jackson](https://www.youtube.com/@TheWinnieston) and [article](https://www.eddymens.com/blog/markdown-table-of-contents-toc-how-to-create-one) useful to learn how to use markdown anchor links.
+* [This article](https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown) helped me with resizing images in markdown.
+
+### Inspiration
+
+* The following websites were helpful while researching the online presence of DJs.
+    * [DJ Danny Nutt](https://www.djdannynutt.com/)
+    * [DJ Louie Vega](https://louievega.com/)
+    * [Soulful House Collective](https://www.soulfulhousecollective.com/)
+
+### Content
+
+All content for the site is written by myself.
+
+### Media
+
+* [Adobe Stock](https://stock.adobe.com/) - Used to source royalty free imagery for the site.
 
 ### Acknowledgments
 

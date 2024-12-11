@@ -16,6 +16,9 @@ Visit the deployed site here: [DJ Silver Soul](https://sd-powell.github.io/portf
 
 * [AUTOMATED TESTING](#)
   * [W3C Validator](#)
+  * [W3C CSS Validator](#)
+  * [Lighthouse](#)
+* [MANUAL TESTING](#)
 
 
 Testing was conducted continuously throughout the development process to ensure a functional and user-friendly website. Chrome Developer Tools were extensively utilised during the build to identify and resolve issues promptly. Regular testing allowed for a smoother development process and ensured the final product met quality standards.
@@ -32,7 +35,33 @@ Each page is tested using Chrome Developer Tools to ensure that it is responsive
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website.
 
-* [index.html](documentation/testing-w3-index.webp) - Passed with no errors.
-* [about.html]() - 
-* [booking.html]() - 
-* [success.html](documentation/testing-w3-success.webp) - Passed with no errors.
+| Directory                             | File tested  | Screenshot                                           | Notes                            |
+| ------------------------------------- | ------------ | ---------------------------------------------------- | -------------------------------- |
+| documentation/testing-w3-index.webp   | index.html   | ![screenshot](documentation/testing-w3-index.webp)   | no errors occurred when checking |
+| ------------------------------------- | about.html   | ---------------------------------------------------- | -------------------------------- |
+| ------------------------------------- | booking.html | ---------------------------------------------------- | -------------------------------- |
+| documentation/testing-w3-success.webp | success.html | ![screenshot](documentation/testing-w3-success.webp) | no errors occurred when checking |
+
+---
+
+### CSS Validator
+
+[CSS W3C Validator](https://jigsaw.w3.org/css-validator/) was used to validate my CSS file.
+
+| Directory                                | File tested  | Screenshot                                              | Notes                            |
+| ---------------------------------------- | ------------ | ------------------------------------------------------- | -------------------------------- |
+| documentation/testing-w3css-success.webp | style.css    | ![screenshot](documentation/testing-w3css-success.webp) | no errors occurred when checking |
+
+---
+
+### Lighthouse
+
+I've tested my deployed project using the Lighthouse Audit tool to to test the performance, accessibility, best practices and SEO of the website.
+
+| Page    | Mobile | Desktop | Notes |
+| ------- | --- | --- | --- |
+| Home    |
+| About   |
+| Booking |
+| Success |
+
