@@ -43,10 +43,11 @@ It is designed to:
         * [The Home Page](#item-twelve)
         * [The Booking Page](#item-thirteen)
         * [The About Page](#item-fourteen)
+        * [Future Implementations](#item-fifteen)
 
-* [Technologies Used]
-    * [Languages Used]
-    * [Frameworks, Libraries & Programs Used]
+* [Technologies Used](#item-sixteen)
+    * [Languages Used](#item-seventeen)
+    * [Frameworks, Libraries & Programs Used](#item-eighteen)
 
 * [Deployment & Local Development]
     * [Deployment]
@@ -252,6 +253,8 @@ The booking page is designed to streamline event inquiries, ensuring that potent
 
 The booking page’s purpose is to simplify the inquiry process while gathering all the necessary details to ensure a tailored and professional service.
 
+<a id=item-fourteen></a>
+
 #### The About Page
 
 <details>
@@ -273,13 +276,33 @@ The About page provides a comprehensive introduction to the DJ and their service
 
 The About page’s purpose is to showcase the DJ’s story, establish credibility, and inspire visitors to learn more or book their services.
 
+<a id=item-fifteen></a>
+
+#### Future Implemetations
+
+To ensure the website remains engaging and functional for users, in future implementations I would like to:
+
+1. Introduce a dedicated page showcasing upcoming events where the DJ will perform. This page will help raise awareness, keep fans informed, and encourage attendance.
+2. Embed music samples or live DJ mixes for visitors to listen to directly on the website.
+3. Integrate a photo and video gallery to showcase past events and performances.
+4. Implement an interactive booking calendar to streamline the booking process.
+5. Add social media links with real-time content feeds to showcase latest updates, gigs, and testimonials.
+6. Allow visitors to sign up for a newsletter to stay updated on upcoming events, mixes, and special offers.
+7. Add a Dropbox link so users can submit videos and pictures taken at events for use on social media.
+8. Add a chat or virtual assistant to answer inquiries instantly.
+
 ---
+<a id=item-sixteen></a>
 
 ## Technologies Used
+
+<a id=item-seventeen></a>
 
 ### Languages Used
 
 HTML, CSS, Bootstrap
+
+<a id=item-eighteen></a>
 
 ### Frameworks, Libraries & Programs Used
 
