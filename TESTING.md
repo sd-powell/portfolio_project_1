@@ -35,3 +35,4 @@ Each page is tested using Chrome Developer Tools to ensure that it is responsive
 * [index.html](documentation/testing-w3-index.webp) - Passed with no errors.
 * [about.html]() - 
 * [booking.html]() - 
+* [success.html](documentation/testing-w3-success.webp) - Passed with no errors.
