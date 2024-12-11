@@ -377,6 +377,14 @@ To clone the repository:
 
 Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
+## Solved Issues & Bugs
+
+| No | Bug                                  | How I solved the issue                              |
+| :- | :----------------------------------- | :-------------------------------------------------- |
+| 1  | When the html code was first tested using the w3c validator, the report showed a button class had been incorrectly used rather than an anchor tag for the call to action buttons. |The `<button>` tag was changed to an `<a>` tag on all pages featuring the CTA buttons. |
+| 2  | ------------------------------------ | --------------------------------------------------- |
+
+
 ---
 
 ## Credits
