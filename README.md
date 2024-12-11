@@ -381,8 +381,8 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 | No | Bug                                  | How I solved the issue                              |
 | :- | :----------------------------------- | :-------------------------------------------------- |
-| 1  | When the html code was first tested using the w3c validator, the report showed a button class had been incorrectly used rather than an anchor tag for the call to action buttons. |The `<button>` tag was changed to an `<a>` tag on all pages featuring the CTA buttons. |
-| 2  | ------------------------------------ | --------------------------------------------------- |
+| 1  | When the html code was first tested using the w3c validator, the report showed a button class had been incorrectly used rather than an anchor tag for the call to action buttons. | The `<button>` tag was changed to an `<a>` tag on all pages featuring the CTA buttons. |
+| 2  | The Lighthouse report showed that accessibility could be improved on the 'Book Your Event Now' buttons. As background and foreground colors do not have a sufficient contrast ratio.  | A darker shade of `#1987a3` was found using [Colorkit.co](https://colorkit.co/color-shades-generator/) and the color was replaced in the `:root` css variable with `#14758d` |
 
 
 ---
@@ -392,13 +392,17 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 * I used this [github cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) as a reference for how to format markdown.
 * I found this [YouTube tutorial](https://www.youtube.com/watch?v=EKqhENATIKg) by [Patrick Jackson](https://www.youtube.com/@TheWinnieston) and [article](https://www.eddymens.com/blog/markdown-table-of-contents-toc-how-to-create-one) useful to learn how to use markdown anchor links.
 * [This article](https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown) helped me with resizing images in markdown.
+* [Colorkit.co](https://colorkit.co/color-shades-generator/) helped to find darker shades of hex colours to improve accessibility.
 
 ### Inspiration
 
 * The following websites were helpful while researching the online presence of DJs.
     * [DJ Danny Nutt](https://www.djdannynutt.com/)
     * [DJ Louie Vega](https://louievega.com/)
+    * [DJ Todd Terry](https://www.toddterry.com/)
     * [Soulful House Collective](https://www.soulfulhousecollective.com/)
+* The following websites provided design inspiration.
+    * [Bellroy Carry Goods](https://bellroy.com/)
 
 ### Content
 
