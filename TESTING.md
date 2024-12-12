@@ -101,9 +101,9 @@ Full testing was performed on the following devices:
 * Laptop:
   * Macbook Pro 2023 16 inch screen
 * Mobile Devices:
-  * iPhone 11.
-  * iPhone 12 pro.
-  * iPhone XR.
+  * iPhone 11
+  * iPhone 12 pro
+  * iPhone XR
 
   Additional testing was taken by friends and family on a variety of devices and screen sizes.
 
@@ -111,5 +111,77 @@ Full testing was performed on the following devices:
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
+| Silver Soul logo in navbar | Link directs user back to home page | Clicked on logo | Home page reloads | Pass |
+| Home page link in navbar | Link directs user back to home page | Clicked on link | Home page reloads | Pass |
+| About page link in navbar | Link directs user to About page | Clicked on link | About page loads | Pass |
+| Mixes link in navbar | Link directs user to Mixes section on home page | Clicked on link | Page scrolls to Mixes section | Pass |
+| Booking link in navbar | Link directs user to Booking page | Clicked on link | Booking page loads | Pass |
+| Instagram link in navbar | Link directs user to Instagram page in new tab | Clicked on link | Instagram page loads in new tab | Pass |
+| Facebook link in navbar | Link directs user to Facebook page in new tab | Clicked on link | Facebook page loads in new tab | Pass |
+| X(Twitter) link in navbar | Link directs user to X(Twitter) page in new tab | Clicked on link | X(Twitter) page loads in new tab | Pass |
+| YouTube link in navbar | Link directs user to YouTube page in new tab | Clicked on link | YouTube page loads in new tab | Pass |
+| Spotify link in navbar | Link directs user to Spotify page in new tab | Clicked on link | Spotify page loads in new tab | Pass |
+| Soundcloud link in navbar | Link directs user to Soundcloud page in new tab | Clicked on link | Soundcloud page loads in new tab | Pass |
+| Mixcloud link in navbar | Link directs user to Mixcloud page in new tab | Clicked on link | Mixcloud page loads in new tab | Pass |
+| Book Your Event Now button on hero | Link directs user to booking page | Clicked on link | Booking page loads | Pass |
+| 'Read more about me' link on first USP card | Link directs user to About page | Clicked on link | About page loads | Pass |
+| 'Listen to my mixes' link on second USP card | Link directs user to Mixes section on home page | Clicked on link | Page scrolls to Mixes section | Pass |
+| 'Book now with confidence' link on third USP card | Link directs user to Booking page | Clicked on link | Booking page loads | Pass |
+| 'Read more about DJ Silver Soul' link in About section | Link directs user to About page | Clicked on link | About page loads | Pass |
+| Mixcloud link in Mixes section | Link directs user to Mixcloud page in new tab | Clicked on link | Mixcloud page loads in new tab | Pass |
+| Soundcloud link in Mixes section | Link directs user to Soundcloud page in new tab | Clicked on link | Soundcloud page loads in new tab | Pass |
+| Spotify link in Mixes section | Link directs user to Spotify page in new tab | Clicked on link | Spotify page loads in new tab | Pass |
+| YouTube link in Mixes section | Link directs user to YouTube page in new tab | Clicked on link | YouTube page loads in new tab | Pass |
+| Book Your Event Now button on CTA section | Link directs user to booking page | Clicked on link | Booking page loads | Pass |
+| Instagram link in footer | Link directs user to Instagram page in new tab | Clicked on link | Instagram page loads in new tab | Pass |
+| Facebook link in footer | Link directs user to Facebook page in new tab | Clicked on link | Facebook page loads in new tab | Pass |
+| X(Twitter) link in footer | Link directs user to X(Twitter) page in new tab | Clicked on link | X(Twitter) page loads in new tab | Pass |
+| YouTube link in footer | Link directs user to YouTube page in new tab | Clicked on link | YouTube page loads in new tab | Pass |
+| Spotify link in footer | Link directs user to Spotify page in new tab | Clicked on link | Spotify page loads in new tab | Pass |
+| Soundcloud link in footer | Link directs user to Soundcloud page in new tab | Clicked on link | Soundcloud page loads in new tab | Pass |
+| Mixcloud link in footer | Link directs user to Mixcloud page in new tab | Clicked on link | Mixcloud page loads in new tab | Pass |
+| Home page link in footer | Link directs user back to home page | Clicked on link | Home page reloads | Pass |
+| About page link in footer | Link directs user to About page | Clicked on link | About page loads | Pass |
+| Mixes link in footer | Link directs user to Mixes section on home page | Clicked on link | Page scrolls to Mixes section | Pass |
+| Contact link in footer | Link directs user to Booking page | Clicked on link | Booking page loads | Pass |
 
+`About Page`
 
+To avoid repetition, I have listed common links to the home page below as a summary. All links were fully tested and the outcome as as expected above.
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| All navbar links listed above | Link directs user to specified page/section | Clicked on link | Expected page/section loads | Pass |
+| Mixcloud link in Mixes section | Link directs user to Mixcloud page in new tab | Clicked on link | Mixcloud page loads in new tab | Pass |
+| Soundcloud link in Mixes section | Link directs user to Soundcloud page in new tab | Clicked on link | Soundcloud page loads in new tab | Pass |
+| Spotify link in Mixes section | Link directs user to Spotify page in new tab | Clicked on link | Spotify page loads in new tab | Pass |
+| YouTube link in Mixes section | Link directs user to YouTube page in new tab | Clicked on link | YouTube page loads in new tab | Pass |
+| Book Your Event Now button on CTA section | Link directs user to booking page | Clicked on link | Booking page loads | Pass |
+| All footer links listed above | Link directs user to specified page/section | Clicked on link | Expected page/section loads | Pass |
+
+`Booking Page`
+
+To avoid repetition, I have listed common links to the home page below as a summary. All links were fully tested and the outcome as as expected above.
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| All navbar links listed above | Link directs user to specified page/section | Clicked on link | Expected page/section loads | Pass |
+| Click submit on form with no content entered | Validation displays alert to enter information in name field | Clicked on submit | Alert is shown on name field | Pass |
+| Submit form with white space in name field | Validation displays alert to match the format requested | Clicked on submit | Alert is shown on name field | Pass |
+| Enter text in name field and leave email field blank | Validation displays alert to enter information in email field | Clicked on submit | Alert is shown on email field | Pass |
+| Enter text in email field with no @ symbol | Validation displays alert to enter @ symbol in email field | Clicked on submit | Alert is shown on email field | Pass |
+| Submit form with white space in email field | Validation displays alert to match the format requested | Clicked on submit | Alert is shown on email field | Pass |
+| Complete form and leave date field blank | Validation displays alert to enter information in date field | Clicked on submit | Alert is shown on date field | Pass |
+| Complete form and leave message field blank | Validation displays alert to enter information in message field | Clicked on submit | Alert is shown on message field | Pass |
+| Complete form with correct information | User is redirected to success page | Clicked on submit | Success page is loaded | Pass
+| All footer links listed above | Link directs user to specified page/section | Clicked on link | Expected page/section loads | Pass |
+
+`Success Page`
+
+To avoid repetition, I have listed common links to the home page below as a summary. All links were fully tested and the outcome as as expected above.
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| All navbar links listed above | Link directs user to specified page/section | Clicked on link | Expected page/section loads | Pass |
+| 'Return to the home page' button on Success page | User is redirected to home page | Clicked on button | Home page is loaded | Pass |
+| All footer links listed above | Link directs user to specified page/section | Clicked on link | Expected page/section loads | Pass |
