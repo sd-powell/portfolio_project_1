@@ -29,6 +29,7 @@ body {
     --button-color-highlight: #14758d;
     --logo-width: 70px;
     --hero-height: 650px;
+    --about-hero-height: 500px;
     --gap-size: 20px;
 }
 
@@ -127,14 +128,19 @@ a:hover {
 
 .about-hero {
     position: relative;
-    height: var(--hero-height);
+    height: var(--about-hero-height);
+    /* width: 100vw; */
     width: 100vw;
-    background: url("../images/event-party-hero-992px.webp") no-repeat top center;
-    background-size: 1200px auto;
+    max-width: 1200px;
+    aspect-ratio: 21 / 9;
+    height: auto;
+    justify-content: center;
+    background: url("../images/hero-image-about-600px.webp") no-repeat top center;
+    background-size: 600px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 35rem;
+    padding-top: 28rem;
     margin: 0 auto;
     padding-left: 45px;
     padding-right: 45px;
@@ -501,9 +507,14 @@ a:hover {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
-    /* Enlarge hero image on larger screens */
+    /* Enlarge hero images on larger screens */
     .hero {
         background: url("../images/hero-image-grad-768px.webp") no-repeat top center;
+        background-size: 768px auto;
+    }
+
+    .about-hero {
+        background: url("../images/hero-image-about-768px.webp") no-repeat top center;
         background-size: 768px auto;
     }
 
@@ -609,9 +620,14 @@ a:hover {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
-    /* Enlarge hero image on larger screens */
+    /* Enlarge hero images on larger screens */
     .hero {
         background: url("../images/hero-image-grad-992px.webp") no-repeat top center;
+        background-size: 992px auto;
+    }
+
+    .about-hero {
+        background: url("../images/hero-image-about-992px.webp") no-repeat top center;
         background-size: 992px auto;
     }
 
@@ -650,23 +666,36 @@ a:hover {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-    /* Enlarge hero image on larger screens */
+    /* Enlarge hero images on larger screens */
     .hero {
         background: url("../images/hero-image-grad-1050px.webp") no-repeat top center;
         background-size: 1050px auto;
     }
+
+    .about-hero {
+        background: url("../images/hero-image-about-1050px.webp") no-repeat top center;
+        background-size: 1050px auto;
+    }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-    /* Enlarge hero image on larger screens */
+    /* Enlarge hero images on larger screens */
     .hero {
-        background: url("../images/hero-image-grad.webp") no-repeat top center;
+        background: url("../images/hero-image-grad-1500px.webp") no-repeat top center;
         background-size: 1500px auto;
         height: 700px;
         padding-top: 28rem;
-        max-width: 1200px;
+        max-width: 1500px;
+    }
+
+    .about-hero {
+        background: url("../images/hero-image-about-1500px.webp") no-repeat top center;
+        background-size: 1500px auto;
+        height: 700px;
+        max-width: 1500px;
     }
 
     /* Adjust hero logo on larger screens */
