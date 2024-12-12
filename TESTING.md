@@ -58,10 +58,10 @@ Each page is tested using Chrome Developer Tools to ensure that it is responsive
 
 I've tested my deployed project using the Lighthouse Audit tool to to test the performance, accessibility, best practices and SEO of the website.
 
-| Page    | Mobile | Desktop | Notes |
-| ------- | --- | --- | --- |
-| Home    |
-| About   |
-| Booking |
-| Success |
+| Page    | Mobile                                                   | Desktop                                                   | Notes |
+| ------- | -------------------------------------------------------- | --------------------------------------------------------- | ----- |
+| Home    | ![screenshot](documentation/lighthouse-mobile-home.webp) | ![screenshot](documentation/lighthouse-desktop-home.webp) | Works as expected. Performance scores could have been improved by reducing the size of the hero image.  |
+| About   | -------------------------------------------------------- | --------------------------------------------------------- | ----- |
+| Booking | -------------------------------------------------------- | --------------------------------------------------------- | ----- |
+| Success | -------------------------------------------------------- | --------------------------------------------------------- | ----- |
 
