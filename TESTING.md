@@ -100,6 +100,8 @@ Full testing was performed on the following devices:
   * Mac Studio 2022 LG HDR 4k screen
 * Laptop:
   * Macbook Pro 2023 16 inch screen
+* Tablet:
+  * iPad Pro 2016
 * Mobile Devices:
   * iPhone 11
   * iPhone 12 pro
@@ -147,7 +149,7 @@ Full testing was performed on the following devices:
 
 `About Page`
 
-To avoid repetition, I have listed common links to the home page below as a summary. All links were fully tested and the outcome as as expected above.
+To avoid repetition, I have listed common links to the home page below as a summary. All links were fully tested and the outcome as expected above.
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
@@ -161,7 +163,7 @@ To avoid repetition, I have listed common links to the home page below as a summ
 
 `Booking Page`
 
-To avoid repetition, I have listed common links to the home page below as a summary. All links were fully tested and the outcome as as expected above.
+To avoid repetition, I have listed common links to the home page below as a summary. All links were fully tested and the outcome as expected above.
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
@@ -178,7 +180,7 @@ To avoid repetition, I have listed common links to the home page below as a summ
 
 `Success Page`
 
-To avoid repetition, I have listed common links to the home page below as a summary. All links were fully tested and the outcome as as expected above.
+To avoid repetition, I have listed common links to the home page below as a summary. All links were fully tested and the outcome as expected above.
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
