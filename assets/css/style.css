@@ -504,6 +504,15 @@ a:hover {
 
 /************ Media queries ************/
 
+/* Mobile devices less than 500px */
+@media (max-width: 500px) {
+
+    .about-hero {
+        background: url("../images/hero-image-about-500px.webp") no-repeat top center;
+        background-size: 500px auto;
+    }
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
