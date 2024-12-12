@@ -38,7 +38,7 @@ Each page is tested using Chrome Developer Tools to ensure that it is responsive
 | Directory                             | File tested  | Screenshot                                           | Notes                            |
 | ------------------------------------- | ------------ | ---------------------------------------------------- | -------------------------------- |
 | documentation/testing-w3-index.webp   | index.html   | ![screenshot](documentation/testing-w3-index.webp)   | no errors occurred when checking |
-| ------------------------------------- | about.html   | ---------------------------------------------------- | -------------------------------- |
+| documentation/testing-w3-about.webp | about.html   | ![screenshot](documentation/testing-w3-about.webp)     | no errors occurred when checking |
 | ------------------------------------- | booking.html | ---------------------------------------------------- | -------------------------------- |
 | documentation/testing-w3-success.webp | success.html | ![screenshot](documentation/testing-w3-success.webp) | no errors occurred when checking |
 
