@@ -38,8 +38,8 @@ Each page is tested using Chrome Developer Tools to ensure that it is responsive
 | Directory                             | File tested  | Screenshot                                           | Notes                            |
 | ------------------------------------- | ------------ | ---------------------------------------------------- | -------------------------------- |
 | documentation/testing-w3-index.webp   | index.html   | ![screenshot](documentation/testing-w3-index.webp)   | no errors occurred when checking |
-| documentation/testing-w3-about.webp | about.html   | ![screenshot](documentation/testing-w3-about.webp)     | no errors occurred when checking |
-| ------------------------------------- | booking.html | ---------------------------------------------------- | -------------------------------- |
+| documentation/testing-w3-about.webp   | about.html   | ![screenshot](documentation/testing-w3-about.webp)   | no errors occurred when checking |
+| documentation/testing-w3-booking.webp | booking.html | ![screenshot](documentation/testing-w3-booking.webp) | no errors occurred when checking |
 | documentation/testing-w3-success.webp | success.html | ![screenshot](documentation/testing-w3-success.webp) | no errors occurred when checking |
 
 ---
@@ -60,8 +60,8 @@ I've tested my deployed project using the Lighthouse Audit tool to to test the p
 
 | Page    | Mobile                                                   | Desktop                                                   | Notes |
 | ------- | -------------------------------------------------------- | --------------------------------------------------------- | ----- |
-| Home    | ![screenshot](documentation/lighthouse-mobile-home.webp) | ![screenshot](documentation/lighthouse-desktop-home.webp) | Works as expected. Performance scores could have been improved by reducing the size of the hero image.  |
-| About   | -------------------------------------------------------- | --------------------------------------------------------- | ----- |
-| Booking | -------------------------------------------------------- | --------------------------------------------------------- | ----- |
-| Success | -------------------------------------------------------- | --------------------------------------------------------- | ----- |
+| Home    | ![screenshot](documentation/lighthouse-mobile-home.webp) | ![screenshot](documentation/lighthouse-desktop-home.webp) | Works as expected.  |
+| About   | ![screenshot](documentation/lighthouse-mobile-about.webp)| ![screenshot](documentation/lighthouse-desktop-home.webp) | Works as expected. |
+| Booking | -------------------------------------------------------- | --------------------------------------------------------- | Works as expected. |
+| Success | -------------------------------------------------------- | --------------------------------------------------------- | Works as expected. |
 
