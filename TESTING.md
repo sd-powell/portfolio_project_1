@@ -14,13 +14,17 @@ Visit the deployed site here: [DJ Silver Soul](https://sd-powell.github.io/portf
 
 ## CONTENTS
 
-* [AUTOMATED TESTING](#)
-  * [W3C Validator](#)
-  * [W3C CSS Validator](#)
-  * [Lighthouse](#)
-* [MANUAL TESTING](#)
-  * [Testing User Stories](#)
-  * [Features Testing](#)
+* [AUTOMATED TESTING](#item-one)
+  * [W3C Validator](#item-two)
+  * [W3C CSS Validator](#item-three)
+  * [Lighthouse](#item-four)
+* [MANUAL TESTING](#item-five)
+  * [Full Testing](#item-six)
+  * [Browser Compatibility](#item-seven)
+  * [Responsiveness](#item-seven)
+  * [Accessibility](#item-eight)
+  * [Testing User Stories](#item-nine)
+  * [Features Testing](#item-ten)
 
 
 Testing was conducted continuously throughout the development process to ensure a functional and user-friendly website. Chrome Developer Tools were extensively utilised during the build to identify and resolve issues promptly. Regular testing allowed for a smoother development process and ensured the final product met quality standards.
@@ -31,7 +35,11 @@ Each page is tested using Chrome Developer Tools to ensure that it is responsive
 
 ---
 
+<a id=item-one></a>
+
 ## AUTOMATED TESTING
+
+<a id=item-two></a>
 
 ### W3C Validator
 
@@ -46,6 +54,8 @@ Each page is tested using Chrome Developer Tools to ensure that it is responsive
 
 ---
 
+<a id=item-three></a>
+
 ### CSS Validator
 
 [CSS W3C Validator](https://jigsaw.w3.org/css-validator/) was used to validate my CSS file.
@@ -54,9 +64,28 @@ Each page is tested using Chrome Developer Tools to ensure that it is responsive
 | ---------------------------------------- | ------------ | ------------------------------------------------------- | -------------------------------- |
 | documentation/testing-w3css-success.webp | style.css    | ![screenshot](documentation/testing-w3css-success.webp) | no errors occurred when checking |
 
+<a id=item-four></a>
+
+### Lighthouse
+
+I've tested my deployed project using the Lighthouse Audit tool to to test the performance, accessibility, best practices and SEO of the website.
+
+| Page    | Mobile                                                      | Desktop                                                      | Notes |
+| ------- | ----------------------------------------------------------- | ------------------------------------------------------------ | ----- |
+| Home    | ![screenshot](documentation/lighthouse-mobile-home.webp)    | ![screenshot](documentation/lighthouse-desktop-home.webp)    | Works as expected.  |
+| About   | ![screenshot](documentation/lighthouse-mobile-about.webp)   | ![screenshot](documentation/lighthouse-desktop-home.webp)    | Works as expected. |
+| Booking | ![screenshot](documentation/lighthouse-mobile-booking.webp) | ![screenshot](documentation/lighthouse-desktop-booking.webp) | Works as expected. |
+| Success | ![screenshot](documentation/lighthouse-mobile-success.webp) | ![screenshot](documentation/lighthouse-desktop-success.webp) | Works as expected. |
+
 ---
 
-## Full Testing
+<a id=item-five></a>
+
+## MANUAL TESTING
+
+<a id=item-six></a>
+
+### Full Testing
 
 Full testing was performed on the following physical devices:
 
@@ -72,6 +101,8 @@ Full testing was performed on the following physical devices:
   * iPhone XR
 
   Additional testing was taken by friends and family on a variety of devices and screen sizes.
+
+<a id=item-seven></a>
 
 ### Browser Compatibility
 
@@ -91,6 +122,7 @@ I tested my deployed project on multiple browsers to check for compatibility iss
 | Bing           | Good                | Good                    |
 | Edge           | Good                | Good                    |
 
+<a id=item-seven></a>
 
 ## Responsiveness
 
@@ -108,6 +140,8 @@ I searched for information on [Stack Exchange](https://ux.stackexchange.com/ques
 | Nest Hub Max  | Good at 1280px          | N/A                    | Good                |
 | Mac Studio    | Good at 2500px +        | N/A                    | Good                |
 
+<a id=item-eight></a>
+
 ## Accessibility
 
 In addition to the automated tests for accessibility standards, I used [WebAIM](https://webaim.org/resources/contrastchecker/) to test the contrast of the colours on the site for visually impaired users.
@@ -120,20 +154,9 @@ In addition to the automated tests for accessibility standards, I used [WebAIM](
 | `#1FA2C2`         | `#222222`         | ![Screenshot1](documentation/testing-access-4.webp)|
 | `#FFFFFF`         | `#14758D`         | ![Screenshot1](documentation/testing-access-5.webp)|
 
-### Lighthouse
-
-I've tested my deployed project using the Lighthouse Audit tool to to test the performance, accessibility, best practices and SEO of the website.
-
-| Page    | Mobile                                                      | Desktop                                                      | Notes |
-| ------- | ----------------------------------------------------------- | ------------------------------------------------------------ | ----- |
-| Home    | ![screenshot](documentation/lighthouse-mobile-home.webp)    | ![screenshot](documentation/lighthouse-desktop-home.webp)    | Works as expected.  |
-| About   | ![screenshot](documentation/lighthouse-mobile-about.webp)   | ![screenshot](documentation/lighthouse-desktop-home.webp)    | Works as expected. |
-| Booking | ![screenshot](documentation/lighthouse-mobile-booking.webp) | ![screenshot](documentation/lighthouse-desktop-booking.webp) | Works as expected. |
-| Success | ![screenshot](documentation/lighthouse-mobile-success.webp) | ![screenshot](documentation/lighthouse-desktop-success.webp) | Works as expected. |
-
 ---
 
-## MANUAL TESTING
+<a id=item-nine></a>
 
 ### Testing User Stories
 
@@ -157,6 +180,8 @@ I've tested my deployed project using the Lighthouse Audit tool to to test the p
 | As a returning site user, I want to revisit the site for inspiration, such as reading about the DJs style or listening to the latest mixes. | New content can be accessed by the user in the social media links or mixes section. |
 
 ---
+
+<a id=item-ten></a>
 
 ### Features Testing
 
