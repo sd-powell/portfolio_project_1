@@ -402,6 +402,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 | 1  | When the html code was first tested using the w3c validator, the report showed a button class had been incorrectly used rather than an anchor tag for the call to action buttons. | The `<button>` tag was changed to an `<a>` tag on all pages featuring the CTA buttons. |
 | 2  | The Lighthouse report showed that accessibility could be improved on the 'Book Your Event Now' buttons. As background and foreground colors do not have a sufficient contrast ratio.  | A darker shade of `#1987a3` was found using [Colorkit.co](https://colorkit.co/color-shades-generator/) and the color was replaced in the `:root` css variable with `#14758d` |
 | 3  | The booking form allowed white space characters to be accepted by the validation when submitting the form. | White space validation was implemented on the `<input>` tag using regular expression `required pattern="\S(.*\S)?" title="This field is required"`.
+| 4. | The 'Read more...' link on the about section of the home page was centered when viewing on mobile devices | I used Chrome Developer Tools to identify there was a `text-align: center;` css rule applied to the parent container. I removed this rule in order to fix the issue. |
 
 
 ---
