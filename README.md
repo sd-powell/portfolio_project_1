@@ -10,7 +10,7 @@
 
 Visit the deployed site here: [DJ Silver Soul](https://sd-powell.github.io/portfolio_project_1/)
 
-## Aim of the site
+## Introduction
 
 The goal of this website is to serve as a central hub for showcasing DJ Silver Soul’s 30+ years of DJing expertise, highlighting his passion for soulful & deep house, soul, funk, jazz, and disco.
 
@@ -49,16 +49,20 @@ It is designed to:
     * [Languages Used](#item-seventeen)
     * [Frameworks, Libraries & Programs Used](#item-eighteen)
 
-* [Deployment & Local Development]
-    * [Deployment]
-    * [Local Development]
-        * [How to Fork]
-        * [How to clone]
+* [Deployment & Local Development](#item-nineteen)
+    * [Deployment](#item-twenty)
+    * [Local Development](#item-twentyone)
+        * [How to Fork](#item-twentytwo)
+        * [How to clone](#item-twentythree)
 
-* [Credits]
-    * [Content]
-    * [Media]
-    * [Acknowledgement]
+* [Testing](#item-twentyfour)
+    * [Solved Issues & Bugs](#item-twentyfive)
+
+* [Credits](#item-twentysix)
+    * [Inspiration](#item-twentyseven)
+    * [Content](#item-twentyeight)
+    * [Media](#item-twentynine)
+    * [Acknowledgement](#item-thirty)
 
 ---
 
@@ -336,7 +340,11 @@ HTML, CSS, Bootstrap
 
 ---
 
+<a id=item-nineteen></a>
+
 ## Deployment & Local Development
+
+<a id=item-twenty></a>
 
 ### Deployment
 
@@ -351,7 +359,11 @@ To Deploy the site using GitHub Pages:
 5. From the source dropdown select main branch and press save.
 6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
 
+<a id=item-twentyone></a>
+
 ### Local Development
+
+<a id=item-twentytwo></a>
 
 #### How to Fork
 
@@ -360,6 +372,8 @@ To fork the repository:
 1. Log in (or sign up) to Github.
 2. Go to the repository for this project, [sd-powell/portfolio_project_1](https://github.com/sd-powell/portfolio_project_1).
 3. Click the Fork button in the top right corner.
+
+<a id=item-twentythree></a>
 
 #### How to Clone
 
@@ -373,11 +387,15 @@ To clone the repository:
 
 ---
 
+<a id=item-twentyfour></a>
+
 ## Testing
 
 Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
-## Solved Issues & Bugs
+<a id=item-twentyfive></a>
+
+### Solved Issues & Bugs
 
 | No | Bug                                  | How I solved the issue                              |
 | :- | :----------------------------------- | :-------------------------------------------------- |
@@ -388,12 +406,19 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 ---
 
+<a id=item-twentysix></a>
+
 ## Credits
 
 * I used this [github cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) as a reference for how to format markdown.
 * I found this [YouTube tutorial](https://www.youtube.com/watch?v=EKqhENATIKg) by [Patrick Jackson](https://www.youtube.com/@TheWinnieston) and [article](https://www.eddymens.com/blog/markdown-table-of-contents-toc-how-to-create-one) useful to learn how to use markdown anchor links.
 * [This article](https://stackoverflow.com/questions/14675913/changing-image-size-in-markdown) helped me with resizing images in markdown.
 * [Colorkit.co](https://colorkit.co/color-shades-generator/) helped to find darker shades of hex colours to improve accessibility.
+* This [Stack Overflow](https://stackoverflow.com/questions/55411492/media-queries-not-respecting-size) article helped me understand how to use a min-width media query to allow the site to re-size on smaller devices.
+* This [px to rem converter](https://nekocalc.com/px-to-rem-converter) helped me convert sizes to rem.
+* To understand which device breakpoints to use, I referenced this [w3cschools](https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp) article.
+
+<a id=item-twentyseven></a>
 
 ### Inspiration
 
@@ -405,19 +430,27 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 * The following websites provided design inspiration.
     * [Bellroy Carry Goods](https://bellroy.com/)
 
+<a id=item-twentyeight></a>
+
 ### Content
 
 All content for the site is written by myself.
 
+<a id=item-twentynine></a>
+
 ### Media
 
 * [Adobe Stock](https://stock.adobe.com/) - Used to source royalty free imagery for the site.
+
+<a id=item-thirty></a>
 
 ### Acknowledgments
 
 I would like to acknowledge the following people:
 
 * Jubril Akolade - My Code Institute Mentor.
+
+* [Young Pulse](https://www.instagram.com/youngpulse/?hl=en) - Whose DJ images are used on the home and about pages.
 
 * Ax de Klerk, Jordan Acomba & Robert Lewis - My fellow Code Institute cohort, who helped each other over the course of our first milestone projects.
 
