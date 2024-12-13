@@ -56,6 +56,32 @@ Each page is tested using Chrome Developer Tools to ensure that it is responsive
 
 ---
 
+## Browser Compatibility
+
+- [Safari](https://www.apple.com/uk/safari/)
+- [Chrome](https://www.google.com/chrome)
+- [Firefox](https://www.mozilla.org/firefox)
+- [Bing](https://www.bing.com/)
+- [Edge](https://www.microsoft.com/en-gb/edge?form=MA13FJ)
+
+I tested my deployed project on multiple browsers to check for compatibility issues.
+
+| Browser tested | Intended appearence | Intended responsiveness |
+| -------------- | ------------------- | ----------------------- |
+| Safari         | Good                | Good                    |
+| Chrome         | Good                | Good                    |
+| Firefox        | Good                | Good                    |
+| Bing           | Good                | Good                    |
+| Edge           | Good                | Good                    |
+
+
+## Responsiveness
+
+In addition to testing my deployed site on different devices, I thoroughly tested the site's responsiveness using Chrome Developer Tools.
+
+| Device tested | Site responsive >=700px | Site responsive <699px | Renders as expected |
+| iPhone 5/SE   | N/A                     |
+
 ### Lighthouse
 
 I've tested my deployed project using the Lighthouse Audit tool to to test the performance, accessibility, best practices and SEO of the website.
@@ -115,6 +141,8 @@ Full testing was performed on the following devices:
 
 #### Existing Features
 
+`Home Page`
+
 * **Navigation Bar**
   * Featured on all four pages, the fully responsive navigation bar includes links to the logo, Home page, About page, Mixes section (home page) and Booking page. Social media links are also provided. It is identical on each page to allow for easy navigation.
   * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the browser 'back' button.
@@ -137,61 +165,121 @@ Full testing was performed on the following devices:
   </details> 
   <br>
 
-  * **USPs section**
-    * The Unique Selling Points (USPs) section highlights the DJ’s distinctive qualities, setting them apart from competitors. It is presented through three visually appealing cards, each pairing a concise message with a relevant image to emphasize the uniqueness. This combination of text and visuals ensures key attributes are communicated effectively to the audience.
-    * The USP section provides users with a clear and engaging understanding of what makes the DJ exceptional, helping them make an informed decision about booking.
+* **USPs section**
+  * The Unique Selling Points (USPs) section highlights the DJ’s distinctive qualities, setting them apart from competitors. It is presented through three visually appealing cards, each pairing a concise message with a relevant image to emphasize the uniqueness. This combination of text and visuals ensures key attributes are communicated effectively to the audience.
+  * The USP section provides users with a clear and engaging understanding of what makes the DJ exceptional, helping them make an informed decision about booking.
 
-    <details>
-    <summary>Click here to see the USPs section</summary>
+  <details>
+  <summary>Click here to see the USPs section</summary>
 
-    ![USPs Section](documentation/testing-features-usp.webp)
-    </details> 
-    <br>
+  ![USPs Section](documentation/testing-features-usp.webp)
+  </details> 
+  <br>
 
-  * **About section**
-    * The About section introduces the DJ’s extensive experience, musical expertise, and passion for creating unforgettable events, conveyed through engaging text and a professional image. The user can learn more about the DJ by clicking on the link to the About page.
-    * This section builds trust and connection by showcasing the DJ’s credibility, talent, and dedication, making users feel confident in their choice.
+* **About section**
+  * The About section introduces the DJ’s extensive experience, musical expertise, and passion for creating unforgettable events, conveyed through engaging text and a professional image. The user can learn more about the DJ by clicking on the link to the About page.
+  * This section builds trust and connection by showcasing the DJ’s credibility, talent, and dedication, making users feel confident in their choice.
 
-    <details>
-    <summary>Click here to see the About section</summary>
+  <details>
+  <summary>Click here to see the About section</summary>
 
-    ![About Section](documentation/testing-features-about.webp)
-    </details> 
-    <br>
+  ![About Section](documentation/testing-features-about.webp)
+  </details> 
+  <br>
 
-  * **Mixes section**
-    * The Mixes section provides direct links to the DJ’s curated playlists and live sets on popular platforms like Mixcloud, Soundcloud, Spotify, and YouTube, displayed with clear visuals and captions. The links open in a seprarate tab, allowing the user to return to the website easily. A link to this section is provided in the navbar, USP section and footer.
-    * This section allows users to explore and experience the DJ’s style and versatility, helping them make an informed decision for their event.
+* **Mixes section**
+  * The Mixes section provides direct links to the DJ’s curated playlists and live sets on popular platforms like Mixcloud, Soundcloud, Spotify, and YouTube, displayed with clear visuals and captions. The links open in a seprarate tab, allowing the user to return to the website easily. A link to this section is provided in the navbar, USP section and footer.
+  * This section allows users to explore and experience the DJ’s style and versatility, helping them make an informed decision for their event.
 
-    <details>
-    <summary>Click here to see the Mixes section</summary>
+  <details>
+  <summary>Click here to see the Mixes section</summary>
 
-    ![Mixes Section](documentation/testing-features-mixes.webp)
-    </details> 
-    <br>
+  ![Mixes Section](documentation/testing-features-mixes.webp)
+  </details> 
+  <br>
 
-  * **CTA section**
-    * The Call-to-Action (CTA) section invites users to book the DJ for their events, featuring an engaging headline, supportive text, and a prominent button linking to the booking form.
-    * Upon reaching the end of the home page, this section provides a quick and easy way for users to take action, ensuring they can secure the DJ’s services for their event without hassle.
+* **CTA section**
+  * The Call-to-Action (CTA) section invites users to book the DJ for their events, featuring an engaging headline, supportive text, and a prominent button linking to the booking form.
+  * Upon reaching the end of the home page, this section provides a quick and easy way for users to take action, ensuring they can secure the DJ’s services for their event without hassle.
 
-    <details>
-    <summary>Click here to see the CTA section</summary>
+  <details>
+  <summary>Click here to see the CTA section</summary>
 
-    ![Mixes Section](documentation/testing-features-cta.webp)
-    </details> 
-    <br>
+  ![CTA Section](documentation/testing-features-cta.webp)
+  </details> 
+  <br>
 
-  * **Footer**
-    * The footer provides quick links to key pages, social media icons for connecting with the DJ, and copyright information, ensuring comprehensive site navigation and accessibility.
-    * This section allows users to easily explore the website further or connect with the DJ on various platforms, enhancing engagement and convenience. Quick links allow the user easy navigation once reaching the bottom of the page if using mobile devices.
+* **Footer**
+  * The footer provides quick links to key pages, social media icons for connecting with the DJ, and copyright information, ensuring comprehensive site navigation and accessibility.
+  * This section allows users to easily explore the website further or connect with the DJ on various platforms, enhancing engagement and convenience. Quick links allow the user easy navigation once reaching the bottom of the page if using mobile devices.
 
-    <details>
-    <summary>Click here to see the footer</summary>
+  <details>
+  <summary>Click here to see the footer</summary>
 
-    ![Mixes Section](documentation/testing-features-footer.webp)
-    </details> 
-    <br>
+  ![Footer](documentation/testing-features-footer.webp)
+  </details> 
+  <br>
 
+`About Page`
+
+* **The About hero image**
+  * The About page hero showcases a lively and vibrant image of an energetic crowd immersed in the music at an event. The DJ’s logo is prominently overlaid, reinforcing brand identity while setting the tone for the page.
+  * The value to the user lies in the engaging visual representation of the DJ’s ability to create a lively atmosphere, building trust and excitement about their capability to deliver memorable experiences.
+
+  <details>
+  <summary>Click here to see the About hero image</summary>
+
+  ![Mixes Section](documentation/testing-features-about-hero.webp)
+  </details> 
+  <br>
+
+* **The About page text**
+  * The About page provides the user with further information on DJ Silver Soul, highlighting their 30+ years of experience, passion for music, and commitment to delivering unforgettable events.
+  *  Offers the user insight into the DJ’s expertise and unique style, building trust and connection with potential clients.
+
+  <details>
+  <summary>Click here to see the About page text</summary>
+
+  ![About page text](documentation/testing-features-about-text.webp)
+  </details> 
+  <br>
+
+`Booking Page`
+
+* **The Booking page hero**
+  * The Booking page re-uses the dynamic hero image on the home page, showcasing a lively event atmosphere, complemented by the DJ’s logo to reinforce branding and professionalism. A call to action reminds the user about booking the DJ and provides a reminder to the user on why the DJ is unique.
+  * Creates an engaging and professional first impression for the user, inspiring the user with confidence to proceed with booking inquiries.
+
+  <details>
+  <summary>Click here to see the Booking page hero</summary>
+
+  ![Booking page hero](documentation/testing-features-booking-hero.webp)
+  </details> 
+  <br>
+
+* **The Booking page form**
+  * The Booking page form allows users to easily submit their event details, including type, date, location, and music preferences, for a tailored DJ experience. 'The Booking Made Easy' text reassures the user and explains what information is required from them.
+  * The form provides the user with a seamless, user-friendly way to communicate event specifics, ensuring personalized service and simplifying the booking process.
+
+  <details>
+  <summary>Click here to see the Booking page form</summary>
+
+  ![Booking page form](documentation/testing-features-booking-form.webp)
+  </details> 
+  <br>
+
+`Success Page`
+
+* **The Success Page**
+  * The Success page confirms the successful submission of the booking form, displaying a message of gratitude and reassurance that the DJ will be in touch soon. A button is provided for the user to quickly access the Home page.
+  * Offers the user reassurance and transparency, ensuring users feel their booking is confirmed and will be followed up promptly, improving the overall experience.
+
+  <details>
+  <summary>Click here to see the Success page</summary>
+
+  ![Success page](documentation/testing-features-success.webp)
+  </details> 
+  <br>
 
 `Home Page`
 
