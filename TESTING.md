@@ -19,6 +19,8 @@ Visit the deployed site here: [DJ Silver Soul](https://sd-powell.github.io/portf
   * [W3C CSS Validator](#)
   * [Lighthouse](#)
 * [MANUAL TESTING](#)
+  * [Testing User Stories](#)
+  * [Features Testing](#)
 
 
 Testing was conducted continuously throughout the development process to ensure a functional and user-friendly website. Chrome Developer Tools were extensively utilised during the build to identify and resolve issues promptly. Regular testing allowed for a smoother development process and ensured the final product met quality standards.
@@ -101,13 +103,95 @@ Full testing was performed on the following devices:
 * Laptop:
   * Macbook Pro 2023 16 inch screen
 * Tablet:
-  * iPad Pro 2016
+  * iPad Pro 12.9in 2017
 * Mobile Devices:
   * iPhone 11
   * iPhone 12 pro
   * iPhone XR
 
   Additional testing was taken by friends and family on a variety of devices and screen sizes.
+
+### Features Testing
+
+#### Existing Features
+
+* **Navigation Bar**
+  * Featured on all four pages, the fully responsive navigation bar includes links to the logo, Home page, About page, Mixes section (home page) and Booking page. Social media links are also provided. It is identical on each page to allow for easy navigation.
+  * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the browser 'back' button.
+
+  <details>
+  <summary>Click here to see the Navigation Bar</summary>
+
+  ![Navigation Bar](documentation/testing-features-navbar.webp)
+  </details> 
+  <br>
+
+* **The Hero image**
+  * The landing page presents the user with a vibrant hero image of a DJ at an event with a large crowd. Portraying the DJs experience of large venues. The image is reinforced with the main heading and question to the user. The answer paragraph text informs the user of the DJ's experience and passion for music. A button is provided for the user to access the booking page to make an enquiry.
+  * The hero section makes a eye catching first impression to the user on the landing page. It reinforces the DJ's message and fulfils the aim of the website to secure bookings.
+
+  <details>
+  <summary>Click here to see the Hero image</summary>
+
+  ![Hero image](documentation/testing-features-hero.webp)
+  </details> 
+  <br>
+
+  * **USPs section**
+    * The Unique Selling Points (USPs) section highlights the DJ’s distinctive qualities, setting them apart from competitors. It is presented through three visually appealing cards, each pairing a concise message with a relevant image to emphasize the uniqueness. This combination of text and visuals ensures key attributes are communicated effectively to the audience.
+    * The USP section provides users with a clear and engaging understanding of what makes the DJ exceptional, helping them make an informed decision about booking.
+
+    <details>
+    <summary>Click here to see the USPs section</summary>
+
+    ![USPs Section](documentation/testing-features-usp.webp)
+    </details> 
+    <br>
+
+  * **About section**
+    * The About section introduces the DJ’s extensive experience, musical expertise, and passion for creating unforgettable events, conveyed through engaging text and a professional image. The user can learn more about the DJ by clicking on the link to the About page.
+    * This section builds trust and connection by showcasing the DJ’s credibility, talent, and dedication, making users feel confident in their choice.
+
+    <details>
+    <summary>Click here to see the About section</summary>
+
+    ![About Section](documentation/testing-features-about.webp)
+    </details> 
+    <br>
+
+  * **Mixes section**
+    * The Mixes section provides direct links to the DJ’s curated playlists and live sets on popular platforms like Mixcloud, Soundcloud, Spotify, and YouTube, displayed with clear visuals and captions. The links open in a seprarate tab, allowing the user to return to the website easily. A link to this section is provided in the navbar, USP section and footer.
+    * This section allows users to explore and experience the DJ’s style and versatility, helping them make an informed decision for their event.
+
+    <details>
+    <summary>Click here to see the Mixes section</summary>
+
+    ![Mixes Section](documentation/testing-features-mixes.webp)
+    </details> 
+    <br>
+
+  * **CTA section**
+    * The Call-to-Action (CTA) section invites users to book the DJ for their events, featuring an engaging headline, supportive text, and a prominent button linking to the booking form.
+    * Upon reaching the end of the home page, this section provides a quick and easy way for users to take action, ensuring they can secure the DJ’s services for their event without hassle.
+
+    <details>
+    <summary>Click here to see the CTA section</summary>
+
+    ![Mixes Section](documentation/testing-features-cta.webp)
+    </details> 
+    <br>
+
+  * **Footer**
+    * The footer provides quick links to key pages, social media icons for connecting with the DJ, and copyright information, ensuring comprehensive site navigation and accessibility.
+    * This section allows users to easily explore the website further or connect with the DJ on various platforms, enhancing engagement and convenience. Quick links allow the user easy navigation once reaching the bottom of the page if using mobile devices.
+
+    <details>
+    <summary>Click here to see the footer</summary>
+
+    ![Mixes Section](documentation/testing-features-footer.webp)
+    </details> 
+    <br>
+
 
 `Home Page`
 
