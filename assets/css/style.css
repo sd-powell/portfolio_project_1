@@ -93,7 +93,7 @@ a:hover {
 .section-light {
     color: var(--primary-color);
     background-color: var(--background-color-base);
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
 }
@@ -496,7 +496,7 @@ a:hover {
 
 /* Mobile devices less than 276px */
 @media (max-width: 276px) {
-    
+
     /* Reduce size of hero logo on smaller devices to improve responsiveness */
     .hero__logo img {
         top: 43%;
@@ -506,7 +506,7 @@ a:hover {
 
 /* Mobile devices less than 353px */
 @media (max-width: 353px) {
-    
+
     /* Increase area of hero to accomodate text on smaller devices */
     .hero {
         height: 685px;
@@ -523,17 +523,25 @@ a:hover {
 
 /* Mobile devices less than 500px */
 @media (max-width: 500px) {
-    
+
     /* Reduce hero image on smaller screens to improve load time */
     .about-hero {
         background: url("../images/hero-image-about-500px.webp") no-repeat top center;
         background-size: 500px auto;
     }
+
+    /* Reduce h2 text size on booking, success and 404 pages */
+    .booking-form__text h2,
+    .booking-form__success h2 {
+        font-size: 1rem;
+        /* margin-bottom: 2rem; */
+        line-height: 1.25rem;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-   
+
     /* Enlarge hero images on larger screens */
     .hero {
         background: url("../images/hero-image-grad-768px.webp") no-repeat top center;
@@ -642,7 +650,6 @@ a:hover {
         font-size: 1rem;
         line-height: 1.6rem;
     }
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -708,7 +715,7 @@ a:hover {
 
 /* Large devices (laptops/desktops, 1050px and up) */
 @media only screen and (min-width: 1050px) {
-   
+
     /* Enlarge hero images on larger screens */
     .hero {
         background: url("../images/hero-image-grad-1200px.webp") no-repeat top center;
