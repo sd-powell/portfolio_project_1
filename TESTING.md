@@ -29,7 +29,7 @@ Visit the deployed site here: [DJ Silver Soul](https://sd-powell.github.io/portf
 
 Testing was conducted continuously throughout the development process to ensure a functional and user-friendly website. Chrome Developer Tools were extensively utilised during the build to identify and resolve issues promptly. Regular testing allowed for a smoother development process and ensured the final product met quality standards.
 
-Throughout the development process, ChatGPT was utilized as a valuable resource for brainstorming ideas, refining content, and troubleshooting challenges. By offering alternative solutions and best practices, ChatGPT contributed significantly to the website’s overall quality and functionality.
+Throughout the development process, ChatGPT was utilised as a valuable resource for brainstorming ideas, refining content, and troubleshooting challenges. By offering alternative solutions and best practices, ChatGPT contributed significantly to the website’s overall quality and functionality.
 
 Each page is tested using Chrome Developer Tools to ensure that it is responsive on a variety of different screen sizes and devices.
 
@@ -51,6 +51,7 @@ Each page is tested using Chrome Developer Tools to ensure that it is responsive
 | documentation/testing-w3-about.webp   | about.html   | ![screenshot](documentation/testing-w3-about.webp)   | no errors occurred when checking |
 | documentation/testing-w3-booking.webp | booking.html | ![screenshot](documentation/testing-w3-booking.webp) | no errors occurred when checking |
 | documentation/testing-w3-success.webp | success.html | ![screenshot](documentation/testing-w3-success.webp) | no errors occurred when checking |
+| documentation/testing-w3-success.webp | 404.html | ![screenshot](documentation/testing-w3-404.webp) | no errors occurred when checking |
 
 ---
 
@@ -76,6 +77,7 @@ I've tested my deployed project using the Lighthouse Audit tool to to test the p
 | About   | ![screenshot](documentation/lighthouse-mobile-about.webp)   | ![screenshot](documentation/lighthouse-desktop-home.webp)    | Works as expected. |
 | Booking | ![screenshot](documentation/lighthouse-mobile-booking.webp) | ![screenshot](documentation/lighthouse-desktop-booking.webp) | Works as expected. |
 | Success | ![screenshot](documentation/lighthouse-mobile-success.webp) | ![screenshot](documentation/lighthouse-desktop-success.webp) | Works as expected. |
+| 404 | ![screenshot](documentation/lighthouse-mobile-404.webp) | ![screenshot](documentation/lighthouse-desktop-404.webp) | Works as expected. |
 
 ---
 
@@ -327,6 +329,20 @@ In addition to the automated tests for accessibility standards, I used [WebAIM](
   </details> 
   <br>
 
+`404 Page`
+
+* **404 Page**
+  * The 404 page provides a clear and engaging message to inform users they’ve reached a non-existent or unavailable page. It features helpful links to navigate back to the homepage or other key sections of the site.
+  * This ensures users stay connected and guided while maintaining a consistent and professional user experience.
+
+  <details>
+  <summary>Click here to see the 404 page</summary>
+
+  ![404 page](documentation/testing-features-404.webp)
+  </details> 
+  <br>
+
+
 `Home Page`
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
@@ -405,3 +421,15 @@ To avoid repetition, I have listed common links to the home page below as a summ
 | All navbar links listed above | Link directs user to specified page/section | Clicked on link | Expected page/section loads | Pass |
 | 'Return to the home page' button on Success page | User is redirected to home page | Clicked on button | Home page is loaded | Pass |
 | All footer links listed above | Link directs user to specified page/section | Clicked on link | Expected page/section loads | Pass |
+
+`404 Page`
+
+To avoid repetition, I have listed common links to the home page below as a summary. All links were fully tested and the outcome as expected above.
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| All navbar links listed above | Link directs user to specified page/section | Clicked on link | Expected page/section loads | Pass |
+| 'Head to home page' link on 404 page | User is redirected to home page | Clicked on button | Home page is loaded | Pass |
+| 'Explore the mixes' link on 404 page | User is redirected to the Mixes section on the home page | Clicked on button | Mixes section on the Home page is loaded | Pass |
+| 'Contact me' link on 404 page | User is redirected to booking page | Clicked on button | Booking page is loaded | Pass |
+| All footer links listed above | Link directs user to specified page/section | Clicked on link | Expected page/section loads | Pass | 
