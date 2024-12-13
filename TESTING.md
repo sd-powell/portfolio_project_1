@@ -108,6 +108,18 @@ I searched for information on [Stack Exchange](https://ux.stackexchange.com/ques
 | Nest Hub Max  | Good at 1280px          | N/A                    | Good                |
 | Mac Studio    | Good at 2500px +        | N/A                    | Good                |
 
+## Accessibility
+
+In addition to the automated tests for accessibility standards, I used [WebAIM](https://webaim.org/resources/contrastchecker/) to test the contrast of the colours on the site for visually impaired users.
+
+| Foreground colour | Background colour | Testing results |
+| ----------------- | ----------------- | --------------- |
+| `#D27D60`         | `#000000`         | ![Screenshot1](documentation/testing-access-1.webp)|
+| `#D27D60`         | `#FFFFFF`         | ![Screenshot1](documentation/testing-access-2.webp)|
+| `#000000`         | `#F5E5DF`         | ![Screenshot1](documentation/testing-access-3.webp)|
+| `#1FA2C2`         | `#222222`         | ![Screenshot1](documentation/testing-access-4.webp)|
+| `#FFFFFF`         | `#14758D`         | ![Screenshot1](documentation/testing-access-5.webp)|
+
 ### Lighthouse
 
 I've tested my deployed project using the Lighthouse Audit tool to to test the performance, accessibility, best practices and SEO of the website.
