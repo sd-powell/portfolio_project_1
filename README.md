@@ -405,6 +405,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 | 4. | The 'Read more...' link on the about section of the home page was centered when viewing on mobile devices | I used Chrome Developer Tools to identify there was a `text-align: center;` css rule applied to the parent container. I removed this rule in order to fix the issue. |
 | 5. | When viewing the booking form on smaller devices, there was no space between the submit button and the footer. | I used Chrome Developer Tools to identify the container section `#booking-form` and applied a css rule to it of `margin-bottom: 20px`to solve the issue and create space between the button and footer. |
 | 6. | Viewing the site using Chrome Developer Tools in the iPhone 5/SE preview, the hero text was pushing up into the logo. | I used a media query `@media (max-width: 353px)` and applied rules to make the logo smaller `.hero__logo img {top: 43%; width: 160px;}` and align it to a higher postion on the page. I also applied a rule to the hero container to allow more room for the text `.hero {height: 685px; padding-top: 20rem;}`. |
+| 7. | I identified that when the viewport width is increased between 1050px and 1200px, the hero image wasn't wide enough to display full screen. | I used another media query `@media only screen and (min-width: 1050px)` to load a 1200px wide image which solved the issue. |
 
 ---
 

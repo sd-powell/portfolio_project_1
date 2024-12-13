@@ -16,7 +16,7 @@ body {
     color: var(--background-color-base);
 }
 
-/* CSS Variables */
+/************ CSS Variables ************/
 :root {
     --primary-font: 'Montserrat', sans-serif;
     --secondary-font: "Open Sans", cursive;
@@ -33,7 +33,7 @@ body {
     --gap-size: 20px;
 }
 
-/* Typography */
+/************ Typography ************/
 
 h1,
 h2,
@@ -83,7 +83,7 @@ a:hover {
     font-size: inherit;
 }
 
-/* Utility Classes */
+/************ Utility Classes ************/
 .flex-center {
     display: flex;
     justify-content: center;
@@ -110,7 +110,7 @@ a:hover {
     padding: 2.5rem 7.4rem;
 }
 
-/* Hero Section */
+/************ Hero Section ************/
 .hero {
     position: relative;
     height: var(--hero-height);
@@ -129,7 +129,6 @@ a:hover {
 .about-hero {
     position: relative;
     height: var(--about-hero-height);
-    /* width: 100vw; */
     width: 100vw;
     max-width: 1200px;
     aspect-ratio: 21 / 9;
@@ -181,7 +180,7 @@ a:hover {
     text-align: center;
 }
 
-/* Common button styling */
+/************ Common button styling ************/
 .button {
     background-color: var(--button-color-highlight);
     color: white;
@@ -198,18 +197,7 @@ a:hover {
     background-color: #007ea7;
 }
 
-/* Section padding */
-
-/* .usps,
-.mixes,
-.booking,
-.booking-form__text {
-    padding: 1.8rem 2rem;
-} */
-
-
-/* Set common flex variables */
-
+/************ Set common flex variables ************/
 .usps,
 .booking,
 .hero__text {
@@ -223,7 +211,7 @@ a:hover {
     display: none;
 }
 
-/* Style cta buttons */
+/************ Style cta buttons ************/
 .hero__button,
 .booking__button {
     background-color: var(--button-color-highlight);
@@ -231,7 +219,7 @@ a:hover {
     color: white;
 }
 
-/* Navbar */
+/************ Navbar ************/
 .navbar {
     background-color: var(--primary-color);
 }
@@ -258,7 +246,7 @@ a:hover {
     color: var(--secondary-color);
 }
 
-/* USP section styling */
+/************ USP section styling ************/
 .usps {
     background-color: var(--background-color-base);
     flex-direction: column;
@@ -321,7 +309,7 @@ a:hover {
     font-weight: 600;
 }
 
-/* About Section */
+/************ About Section ************/
 
 .about {
     background-color: var(--background-color-dark);
@@ -336,7 +324,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* text-align: center; */
     gap: 2rem;
     max-width: 288px;
     margin: 0 auto;
@@ -353,7 +340,7 @@ a:hover {
     text-align: left;
 }
 
-/* Mixes Section */
+/************ Mixes Section ************/
 .mixes {
     background-color: var(--background-color-base);
     flex-direction: column;
@@ -509,6 +496,7 @@ a:hover {
 
 /* Mobile devices less than 276px */
 @media (max-width: 276px) {
+    
     /* Reduce size of hero logo on smaller devices to improve responsiveness */
     .hero__logo img {
         top: 43%;
@@ -518,32 +506,24 @@ a:hover {
 
 /* Mobile devices less than 353px */
 @media (max-width: 353px) {
-        /* Increase area of hero to accomodate text on smaller devices */
-        .hero {
-            /* position: relative; */
-            height: 685px;
-            /* width: 100vw; */
-            /* background: url("../images/hero-image-grad-600px.webp") no-repeat top center;
-            background-size: 600px auto;
-            display: flex;
-            flex-direction: column;
-            align-items: center; */
-            padding-top: 20rem;
-            /* margin: 0 auto;
-            padding-left: 45px;
-            padding-right: 45px; */
-        }    
     
+    /* Increase area of hero to accomodate text on smaller devices */
+    .hero {
+        height: 685px;
+        padding-top: 20rem;
+    }
+
     /* Reduce size of hero logo on smaller devices to improve responsiveness */
-        .hero__logo img {
-            top: 43%;
-            width: 160px;
-        }
+    .hero__logo img {
+        top: 43%;
+        width: 160px;
+    }
 }
 
 
 /* Mobile devices less than 500px */
 @media (max-width: 500px) {
+    
     /* Reduce hero image on smaller screens to improve load time */
     .about-hero {
         background: url("../images/hero-image-about-500px.webp") no-repeat top center;
@@ -553,7 +533,7 @@ a:hover {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+   
     /* Enlarge hero images on larger screens */
     .hero {
         background: url("../images/hero-image-grad-768px.webp") no-repeat top center;
@@ -657,11 +637,11 @@ a:hover {
         border-radius: 5px;
     }
 
-/* Booking form section */
-.booking-form__text li {
-    font-size: 1rem;
-    line-height: 1.6rem;
-}
+    /* Booking form section */
+    .booking-form__text li {
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
 
 }
 
@@ -685,30 +665,30 @@ a:hover {
         left: 48%;
     }
 
-        /* Enlarge headings */
-        .hero h1 {
-            font-size: 2rem;
-            line-height: 2.2rem;
-        }
-    
-        /* Constrain width of hero text on larger screens */
-        .hero__text {
-            max-width: 60%;
-        }
-    
-        h3,
-        h4 {
-            font-weight: bold;
-            letter-spacing: 0.1rem;
-            font-size: 1.5rem;
-        }
-    
-        p {
-            font-weight: 400;
-            font-size: 1rem;
-            margin-bottom: 0.2rem;
-            line-height: 1.5rem;
-        }
+    /* Enlarge headings */
+    .hero h1 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    /* Constrain width of hero text on larger screens */
+    .hero__text {
+        max-width: 60%;
+    }
+
+    h3,
+    h4 {
+        font-weight: bold;
+        letter-spacing: 0.1rem;
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 1rem;
+        margin-bottom: 0.2rem;
+        line-height: 1.5rem;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -724,7 +704,16 @@ a:hover {
         background: url("../images/hero-image-about-1050px.webp") no-repeat top center;
         background-size: 1050px auto;
     }
+}
 
+/* Large devices (laptops/desktops, 1050px and up) */
+@media only screen and (min-width: 1050px) {
+   
+    /* Enlarge hero images on larger screens */
+    .hero {
+        background: url("../images/hero-image-grad-1200px.webp") no-repeat top center;
+        background-size: 1200px auto;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -739,6 +728,7 @@ a:hover {
         max-width: 1500px;
     }
 
+    /* Enlarge about page hero images on larger screens */
     .about-hero {
         background: url("../images/hero-image-about-1500px.webp") no-repeat top center;
         background-size: 1500px auto;
