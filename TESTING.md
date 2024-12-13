@@ -14,17 +14,19 @@ Visit the deployed site here: [DJ Silver Soul](https://sd-powell.github.io/portf
 
 ## CONTENTS
 
-* [AUTOMATED TESTING](#item-one)
-  * [W3C Validator](#item-two)
-  * [W3C CSS Validator](#item-three)
-  * [Lighthouse](#item-four)
-* [MANUAL TESTING](#item-five)
-  * [Full Testing](#item-six)
-  * [Browser Compatibility](#item-seven)
-  * [Responsiveness](#item-seven)
-  * [Accessibility](#item-eight)
-  * [Testing User Stories](#item-nine)
-  * [Features Testing](#item-ten)
+* [AUTOMATED TESTING](#automated-testing)
+  * [W3C Validator](#w3c-validation)
+  * [W3C CSS Validator](#css-validation)
+  * [Lighthouse](#lighthouse)
+* [MANUAL TESTING](#manual-testing)
+  * [Full Testing](#full-testing)
+  * [Browser Compatibility](#browser)
+  * [Responsiveness](#responsiveness)
+  * [Accessibility](#accessibility)
+  * [Testing User Stories](#testing-user)
+  * [Features Testing](#features-test)
+  * [Existing Features](#existing-features)
+  * [Manual Features Testing](#manual-features-test)
 
 
 Testing was conducted continuously throughout the development process to ensure a functional and user-friendly website. Chrome Developer Tools were extensively utilised during the build to identify and resolve issues promptly. Regular testing allowed for a smoother development process and ensured the final product met quality standards.
@@ -35,11 +37,11 @@ Each page is tested using Chrome Developer Tools to ensure that it is responsive
 
 ---
 
-<a id=item-one></a>
+<a id=automated-testing></a>
 
 ## AUTOMATED TESTING
 
-<a id=item-two></a>
+<a id=w3c-validation></a>
 
 ### W3C Validator
 
@@ -55,7 +57,7 @@ Each page is tested using Chrome Developer Tools to ensure that it is responsive
 
 ---
 
-<a id=item-three></a>
+<a id=css-validation></a>
 
 ### CSS Validator
 
@@ -65,7 +67,7 @@ Each page is tested using Chrome Developer Tools to ensure that it is responsive
 | ---------------------------------------- | ------------ | ------------------------------------------------------- | -------------------------------- |
 | documentation/testing-w3css-success.webp | style.css    | ![screenshot](documentation/testing-w3css-success.webp) | no errors occurred when checking |
 
-<a id=item-four></a>
+<a id=lighthouse></a>
 
 ### Lighthouse
 
@@ -81,11 +83,11 @@ I've tested my deployed project using the Lighthouse Audit tool to to test the p
 
 ---
 
-<a id=item-five></a>
+<a id=manual-testing></a>
 
 ## MANUAL TESTING
 
-<a id=item-six></a>
+<a id=full-testing></a>
 
 ### Full Testing
 
@@ -104,7 +106,7 @@ Full testing was performed on the following physical devices:
 
   Additional testing was taken by friends and family on a variety of devices and screen sizes.
 
-<a id=item-seven></a>
+<a id=browser></a>
 
 ### Browser Compatibility
 
@@ -124,7 +126,7 @@ I tested my deployed project on multiple browsers to check for compatibility iss
 | Bing           | Good                | Good                    |
 | Edge           | Good                | Good                    |
 
-<a id=item-seven></a>
+<a id=responsiveness></a>
 
 ## Responsiveness
 
@@ -142,7 +144,7 @@ I searched for information on [Stack Exchange](https://ux.stackexchange.com/ques
 | Nest Hub Max  | Good at 1280px          | N/A                    | Good                |
 | Mac Studio    | Good at 2500px +        | N/A                    | Good                |
 
-<a id=item-eight></a>
+<a id=accessibility></a>
 
 ## Accessibility
 
@@ -158,7 +160,7 @@ In addition to the automated tests for accessibility standards, I used [WebAIM](
 
 ---
 
-<a id=item-nine></a>
+<a id=testing-user></a>
 
 ### Testing User Stories
 
@@ -183,9 +185,11 @@ In addition to the automated tests for accessibility standards, I used [WebAIM](
 
 ---
 
-<a id=item-ten></a>
+<a id=features-test></a>
 
 ### Features Testing
+
+<a id=existing-features></a>
 
 #### Existing Features
 
@@ -342,6 +346,9 @@ In addition to the automated tests for accessibility standards, I used [WebAIM](
   </details> 
   <br>
 
+<a id=manual-features-test></a>
+
+#### Manual Features Testing
 
 `Home Page`
 

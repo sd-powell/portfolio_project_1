@@ -28,45 +28,47 @@ It is designed to:
 
 ## CONTENTS
 
-* [User Experience](#item-one)
-    * [User Stories](#item-two)
+* [User Experience](#ux)
+    * [User Stories](#user-stories)
 
-* [Design](#item-three)
-    * [Colour Scheme](#item-four)
-    * [Typography](#item-five)
-    * [Imagery](#item-six)
-    * [Wireframes](#item-seven)
-        * [Mobile Wireframes](#item-eight)
-        * [Tablet Wireframes](#item-nine)
-        * [Desktop Wireframes](#item-ten)
-    * [Features](#item-eleven)
-        * [The Home Page](#item-twelve)
-        * [The Booking Page](#item-thirteen)
-        * [The About Page](#item-fourteen)
-        * [Future Implementations](#item-fifteen)
+* [Design](#Design)
+    * [Colour Scheme](#colour-scheme)
+    * [Typography](#typography)
+    * [Imagery](#imagery)
+    * [Wireframes](#wireframes)
+        * [Mobile Wireframes](#mobile-frames)
+        * [Tablet Wireframes](#tablet-frames)
+        * [Desktop Wireframes](#desktop-frames)
+    * [Features](#features)
+        * [The Home Page](#home-page-features)
+        * [The About Page](#about-page-features)
+        * [The Booking Page](#booking-page-features)
+        * [The Success Page](#success-page-features)
+        * [The 404 Page](#404-page-features)
+        * [Future Implementations](#future-implementation)
 
-* [Technologies Used](#item-sixteen)
-    * [Languages Used](#item-seventeen)
-    * [Frameworks, Libraries & Programs Used](#item-eighteen)
+* [Technologies Used](#technologies)
+    * [Languages Used](#languages)
+    * [Frameworks, Libraries & Programs Used](#frameworks)
 
-* [Deployment & Local Development](#item-nineteen)
-    * [Deployment](#item-twenty)
-    * [Local Development](#item-twentyone)
-        * [How to Fork](#item-twentytwo)
-        * [How to clone](#item-twentythree)
+* [Deployment & Local Development](#deployment-development)
+    * [Deployment](#development)
+    * [Local Development](#local-development)
+        * [How to Fork](#fork)
+        * [How to clone](#clone)
 
-* [Testing](#item-twentyfour)
-    * [Solved Issues & Bugs](#item-twentyfive)
+* [Testing](#testing-readme)
+    * [Solved Issues & Bugs](#solved-issues)
 
-* [Credits](#item-twentysix)
-    * [Inspiration](#item-twentyseven)
-    * [Content](#item-twentyeight)
-    * [Media](#item-twentynine)
-    * [Acknowledgement](#item-thirty)
+* [Credits](#credits)
+    * [Inspiration](#inspiration)
+    * [Content](#content)
+    * [Media](#media)
+    * [Acknowledgement](#acknowledgement)
 
 ---
 
-<a id=item-one></a>
+<a id=ux></a>
 
 ## User Experience (UX)
 
@@ -81,7 +83,7 @@ The key UX considerations include:
 6. **Accessibility** - The site follows modern accessibility standards, including high-contrast colors, readable fonts, and keyboard navigation support, ensuring inclusivity for all users
 7. **Personal Connection** - Content is crafted to reflect the DJ's passion and experience
 
-<a id=item-two></a>
+<a id=user-stories></a>
 
 ### User Stories
 
@@ -100,11 +102,11 @@ The key UX considerations include:
 
 ---
 
-<a id=item-three></a>
+<a id=Design></a>
 
 ## Design
 
-<a id=item-four></a>
+<a id=colour-scheme></a>
 
 ### Colour Scheme
 
@@ -126,7 +128,7 @@ These highlights were carefully selected to contrast against the primary colors,
 
 ![Hex swatch pallette](documentation/hex-swatches.webp)
 
-<a id=item-five></a>
+<a id=typography></a>
 
 ### Typography
 
@@ -142,52 +144,106 @@ Google Fonts was used to import the selected fonts for the site, ensuring high-q
 
 * **social media icons:** [Font Awesome](https://fontawesome.com/) library icons were used for the social media icons and icons in the mixes section.
 
-<a id=item-six></a>
+<a id=imagery></a>
 
 ### Imagery
 
 The imagery on the site was chosen to reflect the vibrancy and minimalist aesthetic of the hero image. High-contrast visuals with bright, bold colors create an engaging and visually striking experience for users. The use of dynamic imagery complements the mood of the site, drawing attention while maintaining a clean, modern design. All images were sourced from [Adobe Stock](https://stock.adobe.com/).
 
-<a id=item-seven></a>
+<a id=wireframes></a>
 
 ### Wireframes
 
 Wireframes for mobile, tablet, and desktop views were created using [Balsamiq](https://balsamiq.com/). These wireframes helped map out the structure and layout of the site, ensuring a seamless user experience across all devices. The design process focused on responsive layout adjustments to provide an intuitive interface for users on various screen sizes.
 
-<a id=item-eight></a>
+<a id=mobile-frames></a>
 
 #### Mobile Wireframes
 
 <details>
 <summary> Click here to see the Mobile Wireframe </summary>
 
- ![Home](documentation/mobile-wireframe-home.webp)
+- Home page wireframe
+
+![Home](documentation/mobile-wireframe-home.webp)
+
+- About page wireframe
+
+![About](documentation/mobile-wireframe-about.webp)
+
+- Booking page wireframe
+
+![Booking](documentation/mobile-wireframe-booking.webp)
+
+- Success page wireframe
+
+![Success](documentation/mobile-wireframe-success.webp)
+
+- 404 page wireframe
+
+![404](documentation/mobile-wireframe-404.webp)
 
 </details>
 
-<a id=item-nine></a>
+<a id=tablet-frames></a>
 
 #### Tablet Wireframes
 
 <details>
 <summary> Click here to see the Tablet Wireframe </summary>
 
- ![Home](documentation/tablet-wireframe-home.webp)
+- Home page wireframe
+
+![Home](documentation/tablet-wireframe-home.webp)
+
+- About page wireframe
+
+![About](documentation/tablet-wireframe-about.webp)
+
+- Booking page wireframe
+
+![Booking](documentation/tablet-wireframe-booking.webp)
+
+- Success page wireframe
+
+![Success](documentation/tablet-wireframe-success.webp)
+
+- 404 page wireframe
+
+![404](documentation/tablet-wireframe-404.webp)
 
  </details>
 
-<a id=item-ten></a>
+<a id=desktop-frames></a>
 
  #### Desktop Wireframes
 
 <details>
 <summary> Click here to see the Desktop Wireframes </summary>
 
- ![Home](documentation/desktop-wireframe-home.webp)
+- Home page wireframe
+
+![Home](documentation/desktop-wireframe-home.webp)
+
+- About page wireframe
+
+![About](documentation/desktop-wireframe-about.webp)
+
+- Booking page wireframe
+
+![Booking](documentation/desktop-wireframe-booking.webp)
+
+- Success page wireframe
+
+![Success](documentation/desktop-wireframe-success.webp)
+
+- 404 page wireframe
+
+![404](documentation/desktop-wireframe-404.webp)
 
  </details>
 
-<a id=item-eleven></a>
+<a id=features></a>
 
 ### Features
 
@@ -204,7 +260,7 @@ All Pages on the website are responsive and have:
 
 </details>
 
-<a id=item-twelve></a>
+<a id=home-page-features></a>
 
 #### The Home Page
 
@@ -227,7 +283,30 @@ The home page is designed to provide an engaging and welcoming introduction to t
 
 The home page is optimized for both first-time and returning visitors, ensuring an intuitive and aesthetically pleasing user experience.
 
-<a id=item-thirteen></a>
+<a id=about-page-features></a>
+
+#### The About Page
+
+<details>
+<summary> Click here to view the about page </summary>
+
+![DJ Silver Soul about page shown in a variety of screen sizes](documentation/dj-silver-soul-responsive-about.webp)
+
+</details>
+
+---
+
+The About page provides a comprehensive introduction to the DJ and their services, focusing on building trust and connection with visitors. Key features include:
+
+1. **Hero section:** A vibrant banner with the DJ’s logo and section heading.
+2. **Introduction to the DJ:** A compelling narrative about the DJ’s journey, expertise, and passion for music.
+3. **Image of the DJ:** Showing the DJ at work with vinyl records, highlighting the DJ's expertise.
+4. **Featured Mixes:** Another opportunity for the use to access interactive links to popular mixes, offering visitors a chance to experience the DJ’s sound directly.
+4. **Call-to-Action:** A booking section that encourages users to inquire about the DJ’s availability for events.
+
+The About page’s purpose is to showcase the DJ’s story, establish credibility, and inspire visitors to learn more or book their services.
+
+<a id=booking-page-features></a>
 
 #### The Booking Page
 
@@ -252,35 +331,52 @@ The booking page is designed to streamline event inquiries, ensuring that potent
     2. **Date of Event:** A field with a date picker makes it easy for the user to choose a specific date.
 	3. **Additional Message:** A text area for clients to include any extra details or specific requests listed in the introductory text.
 	
-*   **Instructions and Guidance:** Clear, concise text explaining how to complete the form and what to expect after     submission.
+*   **Instructions and Guidance:** Clear, concise text explaining how to complete the form and what to expect after submission.
 	1. **Submit Confirmation:** Upon submission, users are directed to a success page confirming receipt of their inquiry and outlining the next steps.
 
 The booking page’s purpose is to simplify the inquiry process while gathering all the necessary details to ensure a tailored and professional service.
 
-<a id=item-fourteen></a>
+<a id=success-page-features></a>
 
-#### The About Page
+#### The Success Page
 
 <details>
-<summary> Click here to view the about page </summary>
+<summary> Click here to view the success page </summary>
 
-![DJ Silver Soul about page shown in a variety of screen sizes](documentation/dj-silver-soul-responsive-about.webp)
+![DJ Silver Soul success page shown in a variety of screen sizes](documentation/dj-silver-soul-responsive-success.webp)
 
 </details>
 
 ---
 
-The About page provides a comprehensive introduction to the DJ and their services, focusing on building trust and connection with visitors. Key features include:
+The Success page confirms the successful submission of the booking form, displaying a message of gratitude and reassurance that the DJ will be in touch soon.
 
-1. **Hero section:** A vibrant banner with the DJ’s logo and section heading.
-2. **Introduction to the DJ:** A compelling narrative about the DJ’s journey, expertise, and passion for music.
-3. **Image of the DJ:** Showing the DJ at work with vinyl records, highlighting the DJ's expertise.
-4. **Featured Mixes:** Another opportunity for the use to access interactive links to popular mixes, offering visitors a chance to experience the DJ’s sound directly.
-4. **Call-to-Action:** A booking section that encourages users to inquire about the DJ’s availability for events.
+*   A button is provided for the user to quickly access the Home page.
 
-The About page’s purpose is to showcase the DJ’s story, establish credibility, and inspire visitors to learn more or book their services.
+The Success page's purpose is to reassure the user stays connected and guided while maintaining a consistent and professional user experience.
 
-<a id=item-fifteen></a>
+
+<a id=404-page-features></a>
+
+#### The 404 Page
+
+<details>
+<summary> Click here to view the success page </summary>
+
+![DJ Silver Soul success page shown in a variety of screen sizes](documentation/dj-silver-soul-responsive-404.webp)
+
+</details>
+
+---
+
+The 404 page provides a clear and engaging message to inform users they’ve reached a non-existent or unavailable page.
+
+*    It features helpful links to navigate back to the **homepage**, the **mixes section** of the homepage or the **booking** page.
+
+The purpose of the 404 page is to guide users when they land on a non-existent page.
+
+
+<a id=future-implementations></a>
 
 #### Future Implemetations
 
@@ -296,17 +392,17 @@ To ensure the website remains engaging and functional for users, in future imple
 8. Add a chat or virtual assistant to answer inquiries instantly.
 
 ---
-<a id=item-sixteen></a>
+<a id=technologies></a>
 
 ## Technologies Used
 
-<a id=item-seventeen></a>
+<a id=languages></a>
 
 ### Languages Used
 
 HTML, CSS, Bootstrap
 
-<a id=item-eighteen></a>
+<a id=frameworks></a>
 
 ### Frameworks, Libraries & Programs Used
 
@@ -340,11 +436,11 @@ HTML, CSS, Bootstrap
 
 ---
 
-<a id=item-nineteen></a>
+<a id=deployment-development></a>
 
 ## Deployment & Local Development
 
-<a id=item-twenty></a>
+<a id=development></a>
 
 ### Deployment
 
@@ -359,11 +455,11 @@ To Deploy the site using GitHub Pages:
 5. From the source dropdown select main branch and press save.
 6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
 
-<a id=item-twentyone></a>
+<a id=local-development></a>
 
 ### Local Development
 
-<a id=item-twentytwo></a>
+<a id=fork></a>
 
 #### How to Fork
 
@@ -373,7 +469,7 @@ To fork the repository:
 2. Go to the repository for this project, [sd-powell/portfolio_project_1](https://github.com/sd-powell/portfolio_project_1).
 3. Click the Fork button in the top right corner.
 
-<a id=item-twentythree></a>
+<a id=clone></a>
 
 #### How to Clone
 
@@ -387,13 +483,13 @@ To clone the repository:
 
 ---
 
-<a id=item-twentyfour></a>
+<a id=testing-readme></a>
 
 ## Testing
 
 Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
-<a id=item-twentyfive></a>
+<a id=solved-issues></a>
 
 ### Solved Issues & Bugs
 
@@ -410,7 +506,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 ---
 
-<a id=item-twentysix></a>
+<a id=credits></a>
 
 ## Credits
 
@@ -422,7 +518,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 * This [px to rem converter](https://nekocalc.com/px-to-rem-converter) helped me convert sizes to rem.
 * To understand which device breakpoints to use, I referenced this [w3cschools](https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp) article.
 
-<a id=item-twentyseven></a>
+<a id=inspiration></a>
 
 ### Inspiration
 
@@ -434,19 +530,19 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 * The following websites provided design inspiration.
     * [Bellroy Carry Goods](https://bellroy.com/)
 
-<a id=item-twentyeight></a>
+<a id=content></a>
 
 ### Content
 
 All content for the site is written by myself.
 
-<a id=item-twentynine></a>
+<a id=media></a>
 
 ### Media
 
 * [Adobe Stock](https://stock.adobe.com/) - Used to source royalty free imagery for the site.
 
-<a id=item-thirty></a>
+<a id=acknowledgements></a>
 
 ### Acknowledgments
 
