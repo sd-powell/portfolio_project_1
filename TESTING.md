@@ -56,7 +56,24 @@ Each page is tested using Chrome Developer Tools to ensure that it is responsive
 
 ---
 
-## Browser Compatibility
+## Full Testing
+
+Full testing was performed on the following physical devices:
+
+* Desktop:
+  * Mac Studio 2022 LG HDR 4k screen
+* Laptop:
+  * Macbook Pro 2023 16 inch screen
+* Tablet:
+  * iPad Pro 12.9in 2017
+* Mobile Devices:
+  * iPhone 11
+  * iPhone 12 pro
+  * iPhone XR
+
+  Additional testing was taken by friends and family on a variety of devices and screen sizes.
+
+### Browser Compatibility
 
 - [Safari](https://www.apple.com/uk/safari/)
 - [Chrome](https://www.google.com/chrome)
@@ -78,9 +95,18 @@ I tested my deployed project on multiple browsers to check for compatibility iss
 ## Responsiveness
 
 In addition to testing my deployed site on different devices, I thoroughly tested the site's responsiveness using Chrome Developer Tools.
+I searched for information on [Stack Exchange](https://ux.stackexchange.com/questions/74798/are-there-devices-narrower-than-320px-and-data-on-their-usage-for-web-browsing) for the narrowest width of modern devices and based my testing on 320px.
 
 | Device tested | Site responsive >=700px | Site responsive <699px | Renders as expected |
-| iPhone 5/SE   | N/A                     |
+| ------------- | ----------------------- | ---------------------- | ------------------- |
+| iPhone 5/SE   | N/A                     | Good at 320px          | Good                |
+| Galaxy S8     | N/A                     | Good at 350px          | Good                |
+| iPhone 6/7/8  | N/A                     | Good at 375px          | Good                |
+| iPhone 12 Pro | N/A                     | Good at 390px          | Good                |
+| iPhone 6/7/8 Plus | N/A                 | Good at 414px          | Good                |
+| iPad Pro      | Good at 1024px          | N/A                    | Good                |
+| Nest Hub Max  | Good at 1280px          | N/A                    | Good                |
+| Mac Studio    | Good at 2500px +        | N/A                    | Good                |
 
 ### Lighthouse
 
@@ -119,23 +145,6 @@ I've tested my deployed project using the Lighthouse Audit tool to to test the p
 | As a returning site user, I want to revisit the site for inspiration, such as reading about the DJs style or listening to the latest mixes. | New content can be accessed by the user in the social media links or mixes section. |
 
 ---
-
-### Full Testing
-
-Full testing was performed on the following devices:
-
-* Desktop:
-  * Mac Studio 2022 LG HDR 4k screen
-* Laptop:
-  * Macbook Pro 2023 16 inch screen
-* Tablet:
-  * iPad Pro 12.9in 2017
-* Mobile Devices:
-  * iPhone 11
-  * iPhone 12 pro
-  * iPhone XR
-
-  Additional testing was taken by friends and family on a variety of devices and screen sizes.
 
 ### Features Testing
 

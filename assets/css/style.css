@@ -508,9 +508,44 @@ a:hover {
 
 /************ Media queries ************/
 
+/* Mobile devices less than 276px */
+@media (max-width: 276px) {
+    /* Reduce size of hero logo on smaller devices to improve responsiveness */
+    .hero__logo img {
+        top: 43%;
+        width: 140px;
+    }
+}
+
+/* Mobile devices less than 353px */
+@media (max-width: 353px) {
+        /* Increase area of hero to accomodate text on smaller devices */
+        .hero {
+            /* position: relative; */
+            height: 685px;
+            /* width: 100vw; */
+            /* background: url("../images/hero-image-grad-600px.webp") no-repeat top center;
+            background-size: 600px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center; */
+            padding-top: 20rem;
+            /* margin: 0 auto;
+            padding-left: 45px;
+            padding-right: 45px; */
+        }    
+    
+    /* Reduce size of hero logo on smaller devices to improve responsiveness */
+        .hero__logo img {
+            top: 43%;
+            width: 160px;
+        }
+}
+
+
 /* Mobile devices less than 500px */
 @media (max-width: 500px) {
-
+    /* Reduce hero image on smaller screens to improve load time */
     .about-hero {
         background: url("../images/hero-image-about-500px.webp") no-repeat top center;
         background-size: 500px auto;
