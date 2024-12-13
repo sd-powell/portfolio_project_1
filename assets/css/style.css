@@ -111,7 +111,8 @@ a:hover {
 }
 
 /************ Hero Section ************/
-.hero {
+.hero,
+.hero__success {
     position: relative;
     height: var(--hero-height);
     width: 100vw;
@@ -145,7 +146,8 @@ a:hover {
     padding-right: 45px;
 }
 
-.hero__logo img {
+.hero__logo img,
+.hero__logo-success img {
     position: absolute;
     top: 48%;
     left: 45%;
@@ -163,7 +165,8 @@ a:hover {
     z-index: 1;
 }
 
-.hero h1 {
+.hero h1,
+.hero__success h1 {
     font-size: 1rem;
     margin-bottom: 0.8rem;
     padding-left: 2rem;
@@ -506,9 +509,14 @@ a:hover {
 
 /* Mobile devices less than 353px */
 @media (max-width: 353px) {
+/* Reduce height of success and 404 hero on smaller screens */
+    .hero__success {
+        height: 570px;
+        padding-top: 20rem;
+    }
 
     /* Increase area of hero to accomodate text on smaller devices */
-    .hero {
+    .hero__height {
         height: 685px;
         padding-top: 20rem;
     }
@@ -516,6 +524,11 @@ a:hover {
     /* Reduce size of hero logo on smaller devices to improve responsiveness */
     .hero__logo img {
         top: 43%;
+        width: 160px;
+    }
+
+    .hero__logo-success img {
+        top: 51%;
         width: 160px;
     }
 }
@@ -543,7 +556,8 @@ a:hover {
 @media only screen and (min-width: 600px) {
 
     /* Enlarge hero images on larger screens */
-    .hero {
+    .hero,
+    .hero__success {
         background: url("../images/hero-image-grad-768px.webp") no-repeat top center;
         background-size: 768px auto;
     }
@@ -554,7 +568,8 @@ a:hover {
     }
 
     /* Enlarge headings */
-    .hero h1 {
+    .hero h1,
+    .hero__success h1 {
         font-size: 1.4rem;
         line-height: 2.2rem;
     }
@@ -656,7 +671,8 @@ a:hover {
 @media only screen and (min-width: 768px) {
 
     /* Enlarge hero images on larger screens */
-    .hero {
+    .hero,
+    .hero__success {
         background: url("../images/hero-image-grad-992px.webp") no-repeat top center;
         background-size: 992px auto;
     }
@@ -667,13 +683,15 @@ a:hover {
     }
 
     /* Adjust hero logo on larger screens */
-    .hero__logo img {
+    .hero__logo img,
+    .hero__logo-success img {
         top: 48%;
         left: 48%;
     }
 
     /* Enlarge headings */
-    .hero h1 {
+    .hero h1,
+    .hero__success h1 {
         font-size: 2rem;
         line-height: 2.2rem;
     }
@@ -702,7 +720,8 @@ a:hover {
 @media only screen and (min-width: 992px) {
 
     /* Enlarge hero images on larger screens */
-    .hero {
+    .hero,
+    .hero__success {
         background: url("../images/hero-image-grad-1050px.webp") no-repeat top center;
         background-size: 1050px auto;
     }
@@ -717,7 +736,8 @@ a:hover {
 @media only screen and (min-width: 1050px) {
 
     /* Enlarge hero images on larger screens */
-    .hero {
+    .hero,
+    .hero__success {
         background: url("../images/hero-image-grad-1200px.webp") no-repeat top center;
         background-size: 1200px auto;
     }
@@ -727,7 +747,8 @@ a:hover {
 @media only screen and (min-width: 1200px) {
 
     /* Enlarge hero images on larger screens */
-    .hero {
+    .hero,
+    .hero__success {
         background: url("../images/hero-image-grad-1500px.webp") no-repeat top center;
         background-size: 1500px auto;
         height: 700px;
@@ -744,7 +765,8 @@ a:hover {
     }
 
     /* Adjust hero logo on larger screens */
-    .hero__logo img {
+    .hero__logo img,
+    .hero__logo-success img {
         top: 57%;
         left: 48%;
     }
