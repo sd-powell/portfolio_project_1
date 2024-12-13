@@ -405,6 +405,7 @@ a:hover {
 /************ Booking page styling ************/
 #booking-form {
     padding-top: 1rem;
+    margin-bottom: 20px;
 }
 
 .booking-form__text {
@@ -437,8 +438,6 @@ a:hover {
     line-height: 1.25rem;
 }
 
-
-/************ Footer styling ************/
 .booking {
     background-color: var(--secondary-color-tint);
     height: 12rem;
@@ -455,7 +454,7 @@ a:hover {
     margin-bottom: 1.2rem;
 }
 
-/* Footer Styles */
+/************ Footer styling ************/
 .footer {
     background-color: var(--background-color-dark);
     color: var(--text-color-light);
