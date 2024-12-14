@@ -496,7 +496,7 @@ a:hover {
 
 /* Mobile devices less than 353px */
 @media (max-width: 353px) {
-/* Reduce height of success and 404 hero on smaller screens */
+    /* Reduce height of success and 404 hero on smaller screens */
     .hero__success {
         height: 570px;
         padding-top: 20rem;
