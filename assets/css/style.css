@@ -1,4 +1,4 @@
-/* Google Fonts import Montserrat */
+/************ Google Fonts import ************/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -93,7 +93,6 @@ a:hover {
 .section-light {
     color: var(--primary-color);
     background-color: var(--background-color-base);
-    /* min-height: 100vh; */
     display: flex;
     flex-direction: column;
 }
@@ -112,7 +111,8 @@ a:hover {
 
 /************ Hero Section ************/
 .hero,
-.hero__success {
+.hero__success,
+.about-hero {
     position: relative;
     height: var(--hero-height);
     width: 100vw;
@@ -128,26 +128,17 @@ a:hover {
 }
 
 .about-hero {
-    position: relative;
-    height: var(--about-hero-height);
-    width: 100vw;
     max-width: 1200px;
     aspect-ratio: 21 / 9;
     height: auto;
     justify-content: center;
     background: url("../images/hero-image-about-600px.webp") no-repeat top center;
-    background-size: 600px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-top: 28rem;
-    margin: 0 auto;
-    padding-left: 45px;
-    padding-right: 45px;
 }
 
 .hero__logo img,
-.hero__logo-success img {
+.hero__logo-success img,
+.about-hero__logo img {
     position: absolute;
     top: 48%;
     left: 45%;
@@ -157,12 +148,8 @@ a:hover {
 }
 
 .about-hero__logo img {
-    position: absolute;
     top: 78%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 200px;
-    z-index: 1;
 }
 
 .hero h1,
