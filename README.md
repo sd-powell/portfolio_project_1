@@ -430,7 +430,7 @@ HTML, CSS, Bootstrap
 
 * [Am I Responsive?](http://ami.responsivedesign.is/) - To show the website image on a range of devices.
 
-* [Aria DevTools](https://github.com/ziolko/aria-devtools) - Used to view the website the way screen readers present it to the blind users.
+* [Aria DevTools](https://github.com/ziolko/aria-devtools) - Used to view the website the way screen readers present it to blind users.
 
 * [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
 
