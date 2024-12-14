@@ -59,6 +59,7 @@ It is designed to:
 
 * [Testing](#testing-readme)
     * [Solved Issues & Bugs](#solved-issues)
+    * [Know Issues & Bugs](#known-issues)
 
 * [Credits](#credits)
     * [Inspiration](#inspiration)
@@ -503,6 +504,12 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 | 6. | Viewing the site using Chrome Developer Tools in the iPhone 5/SE preview, the hero text was pushing up into the logo. | I used a media query `@media (max-width: 353px)` and applied rules to make the logo smaller `.hero__logo img {top: 43%; width: 160px;}` and align it to a higher postion on the page. I also applied a rule to the hero container to allow more room for the text `.hero {height: 685px; padding-top: 20rem;}`. |
 | 7. | I identified that when the viewport width is increased between 1050px and 1200px, the hero image wasn't wide enough to display full screen. | I used another media query `@media only screen and (min-width: 1050px)` to load a 1200px wide image which solved the issue. |
 | 8. | When viewing the success and 404 pages on smaller devices, there was excessive space between the content and footer. | I used Chrome Developer Tools to identify that the css rule `min-height: 100vh;` applied to the class `.section-light` was causing the issue. The removal of this rule fixed the issue. |
+
+<a id=known-issues></a>
+
+### Known Issues & Bugs
+
+I have noticed that most of the images on my site are used as background images, which limits the ability to include descriptive alt text for screen readers. This could impact accessibility for visually impaired users. I plan to explore alternative methods for incorporating images in future revisions to ensure better accessibility and compliance with web standards.
 
 ---
 
