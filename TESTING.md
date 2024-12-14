@@ -53,7 +53,7 @@ Each page is tested using Chrome Developer Tools to ensure that it is responsive
 | documentation/testing-w3-about.webp   | about.html   | ![screenshot](documentation/testing-w3-about.webp)   | no errors occurred when checking |
 | documentation/testing-w3-booking.webp | booking.html | ![screenshot](documentation/testing-w3-booking.webp) | no errors occurred when checking |
 | documentation/testing-w3-success.webp | success.html | ![screenshot](documentation/testing-w3-success.webp) | no errors occurred when checking |
-| documentation/testing-w3-success.webp | 404.html | ![screenshot](documentation/testing-w3-404.webp) | no errors occurred when checking |
+| documentation/testing-w3-404.webp | 404.html | ![screenshot](documentation/testing-w3-404.webp) | no errors occurred when checking |
 
 ---
 
@@ -71,7 +71,7 @@ Each page is tested using Chrome Developer Tools to ensure that it is responsive
 
 ### Lighthouse
 
-I've tested my deployed project using the Lighthouse Audit tool to to test the performance, accessibility, best practices and SEO of the website.
+I've tested my deployed project using the Lighthouse Audit tool to test the performance, accessibility, best practices and SEO of the website.
 
 | Page    | Mobile                                                      | Desktop                                                      | Notes |
 | ------- | ----------------------------------------------------------- | ------------------------------------------------------------ | ----- |
@@ -240,7 +240,7 @@ In addition to the automated tests for accessibility standards, I used [WebAIM](
   <br>
 
 * **Mixes section**
-  * The Mixes section provides direct links to the DJ’s curated playlists and live sets on popular platforms like Mixcloud, Soundcloud, Spotify, and YouTube, displayed with clear visuals and captions. The links open in a seprarate tab, allowing the user to return to the website easily. A link to this section is provided in the navbar, USP section and footer.
+  * The Mixes section provides direct links to the DJ’s curated playlists and live sets on popular platforms like Mixcloud, Soundcloud, Spotify, and YouTube, displayed with clear visuals and captions. The links open in a separate tab, allowing the user to return to the website easily. A link to this section is provided in the navbar, USP section and footer.
   * This section allows users to explore and experience the DJ’s style and versatility, helping them make an informed decision for their event.
 
   <details>

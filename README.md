@@ -21,8 +21,8 @@ It is designed to:
 1. **Engage and Inspire** - Highlight his timeless sounds, creating a deep connection with music lovers and event organisers
 2. **Promote Accessibility** - Provide visitors with easy access to mixes, upcoming gigs, booking information, and social platforms
 3. **Build Trust** - Showcase his extensive experience and passion for creating memorable, immersive musical experiences
-4. **Modern and Functional Design** - Offer a sleek, user-friendly interface that embodies the energy and sophistication of my music
-5. **Expand Reach** - Connect with a global audience, reinforcing my position as a trusted DJ for private events, clubs, and festivals
+4. **Modern and Functional Design** - Offer a sleek, user-friendly interface that embodies the energy and sophistication of the DJ's music
+5. **Expand Reach** - Connect with a global audience, reinforcing the DJ's position as a trusted DJ for private events, clubs, and festivals
 
 ---
 
@@ -80,7 +80,7 @@ The key UX considerations include:
 3. **Engaging Visuals** - The use of bold typography, high-quality imagery, and dynamic backgrounds reflects the energy and style of the DJ's music
 4. **Focus on Performance** - Lightweight code and optimized assets ensure fast load times, minimizing friction and keeping users engaged
 5. **Clear Call-to-Actions (CTAs)** - Prominent and visually appealing CTAs guide users to important actions, such as streaming mixes or submitting a booking inquiry
-6. **Accessibility** - The site follows modern accessibility standards, including high-contrast colors, readable fonts, and keyboard navigation support, ensuring inclusivity for all users
+6. **Accessibility** - The site follows modern accessibility standards, including high-contrast colours, readable fonts, and keyboard navigation support, ensuring inclusivity for all users
 7. **Personal Connection** - Content is crafted to reflect the DJ's passion and experience
 
 <a id=user-stories></a>
@@ -110,23 +110,23 @@ The key UX considerations include:
 
 ### Colour Scheme
 
-The colour scheme of my site is inspired by the hero background image. This image evokes the vibrant atmosphere of a nightclub, with its interplay of dark spaces and dynamic highlights of orange and blue. These colors set the tone for a modern, energetic, and immersive user experience.
+The colour scheme of the site is inspired by the hero background image. This image evokes the vibrant atmosphere of a nightclub, with its interplay of dark spaces and dynamic highlights of orange and blue. These colours set the tone for a modern, energetic, and immersive user experience.
 
-To create a cohesive and visually appealing color palette for my site, I used the [Palette Generator tool](https://palettegenerator.com/). This allowed me to extract the predominant colors directly from the hero background image.
+To create a cohesive and visually appealing colour palette for the site, I used the [Palette Generator tool](https://palettegenerator.com/). This allowed me to extract the predominant colours directly from the hero background image.
 
-Using this tool ensured that my color scheme harmonized with the key visuals of the site, creating a consistent and immersive user experience. To ensure consistency and maintainability, I declared all color values as CSS variables in the :root selector. This approach allows me to apply colors consistently throughout the site and makes it easy to update the color scheme by changing the values in one place.
+Using this tool ensured that the colour scheme harmonized with the key visuals of the site, creating a consistent and immersive user experience. To ensure consistency and maintainability, I declared all colour values as CSS variables in the :root selector. This approach allows me to apply colours consistently throughout the site and makes it easy to update the colour scheme by changing the values in one place.
 
-The primary colors for my site are black (#000000) and white (#ffffff), providing a clean and timeless foundation that enhances readability and usability.
+The primary colours for the site are black (#000000) and white (#ffffff), providing a clean and timeless foundation that enhances readability and usability.
 
-To draw attention to key areas, I incorporated highlight colors:
+To draw attention to key areas, I incorporated highlight colours:
 * `#d27d60` Used to emphasize elements that convey warmth and energy.
-* `#f5e5df` Used as a soft backgound tint to contrast the white background.
+* `#f5e5df` Used as a soft background tint to contrast the white background.
 * `#1987a3` Applied to call-to-action buttons and other interactive elements, creating a sense of trust and urgency.
 * `#222222` Applied to the about sections as an alternative to the black primary colour.
 
-These highlights were carefully selected to contrast against the primary colors, ensuring important elements stand out and guide the user’s focus effectively.
+These highlights were carefully selected to contrast against the primary colours, ensuring important elements stand out and guide the user’s focus effectively.
 
-![Hex swatch pallette](documentation/hex-swatches.webp)
+![Hex swatch palette](documentation/hex-swatches.webp)
 
 <a id=typography></a>
 
@@ -134,7 +134,7 @@ These highlights were carefully selected to contrast against the primary colors,
 
 Google Fonts was used to import the selected fonts for the site, ensuring high-quality and easily accessible typography.
 
-* **h1, h2 and h3 headings:** The font [Montserrat](https://fonts.google.com/specimen/Montserrat?preview.text=Get%20ready%20to%20elevate%20your%20event&query=open+sans) was chosen for its modern, clean, and sans-serif style. This typeface draws inspiration from the traditional posters and signs of the Montserrat neighborhood in Buenos Aires, lending a sense of history while maintaining a contemporary aesthetic.
+* **h1, h2 and h3 headings:** The font [Montserrat](https://fonts.google.com/specimen/Montserrat?preview.text=Get%20ready%20to%20elevate%20your%20event&query=open+sans) was chosen for its modern, clean, and sans-serif style. This typeface draws inspiration from the traditional posters and signs of the Montserrat neighbourhood in Buenos Aires, lending a sense of history while maintaining a contemporary aesthetic.
 
 ![Montserrat Font Example](documentation/montserrat.webp)
 
@@ -148,7 +148,7 @@ Google Fonts was used to import the selected fonts for the site, ensuring high-q
 
 ### Imagery
 
-The imagery on the site was chosen to reflect the vibrancy and minimalist aesthetic of the hero image. High-contrast visuals with bright, bold colors create an engaging and visually striking experience for users. The use of dynamic imagery complements the mood of the site, drawing attention while maintaining a clean, modern design. All images were sourced from [Adobe Stock](https://stock.adobe.com/).
+The imagery on the site was chosen to reflect the vibrancy and minimalist aesthetic of the hero image. High-contrast visuals with bright, bold colours create an engaging and visually striking experience for users. The use of dynamic imagery complements the mood of the site, drawing attention while maintaining a clean, modern design. All images were sourced from [Adobe Stock](https://stock.adobe.com/).
 
 <a id=wireframes></a>
 
@@ -376,7 +376,7 @@ The 404 page provides a clear and engaging message to inform users they’ve rea
 The purpose of the 404 page is to guide users when they land on a non-existent page.
 
 
-<a id=future-implementations></a>
+<a id=future-implementation></a>
 
 #### Future Implemetations
 
@@ -496,7 +496,7 @@ Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 | No | Bug                                  | How I solved the issue                              |
 | :- | :----------------------------------- | :-------------------------------------------------- |
 | 1  | When the html code was first tested using the w3c validator, the report showed a button class had been incorrectly used rather than an anchor tag for the call to action buttons. | The `<button>` tag was changed to an `<a>` tag on all pages featuring the CTA buttons. |
-| 2  | The Lighthouse report showed that accessibility could be improved on the 'Book Your Event Now' buttons. As background and foreground colors do not have a sufficient contrast ratio.  | A darker shade of `#1987a3` was found using [Colorkit.co](https://colorkit.co/color-shades-generator/) and the color was replaced in the `:root` css variable with `#14758d` |
+| 2  | The Lighthouse report showed that accessibility could be improved on the 'Book Your Event Now' buttons. As background and foreground colours do not have a sufficient contrast ratio.  | A darker shade of `#1987a3` was found using [Colorkit.co](https://colorkit.co/color-shades-generator/) and the colour was replaced in the `:root` css variable with `#14758d` |
 | 3  | The booking form allowed white space characters to be accepted by the validation when submitting the form. | White space validation was implemented on the `<input>` tag using regular expression `required pattern="\S(.*\S)?" title="This field is required"`.
 | 4. | The 'Read more...' link on the about section of the home page was centered when viewing on mobile devices | I used Chrome Developer Tools to identify there was a `text-align: center;` css rule applied to the parent container. I removed this rule in order to fix the issue. |
 | 5. | When viewing the booking form on smaller devices, there was no space between the submit button and the footer. | I used Chrome Developer Tools to identify the container section `#booking-form` and applied a css rule to it of `margin-bottom: 20px`to solve the issue and create space between the button and footer. |
@@ -542,13 +542,13 @@ All content for the site is written by myself.
 
 * [Adobe Stock](https://stock.adobe.com/) - Used to source royalty free imagery for the site.
 
-<a id=acknowledgements></a>
+<a id=acknowledgement></a>
 
 ### Acknowledgments
 
 I would like to acknowledge the following people:
 
-* Jubril Akolade - My Code Institute Mentor.
+* [Jubril Akolade](https://github.com/Jubrillionaire) - My Code Institute Mentor.
 
 * [Young Pulse](https://www.instagram.com/youngpulse/?hl=en) - Whose DJ images are used on the home and about pages.
 
